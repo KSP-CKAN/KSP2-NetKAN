@@ -1,0 +1,12 @@
+spec_version: v1.31
+identifier: SpaceWarp
+$kref: '#/ckan/spacedock/3277'
+license: MIT
+tags:
+  - plugin
+  - library
+depends:
+  - name: BepInEx
+install:
+  - find: SpaceWarp
+    install_to: BepInEx/plugins

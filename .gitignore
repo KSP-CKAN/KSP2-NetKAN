@@ -1,0 +1,7 @@
+.fatten.out
+*.ckan
+*.exe
+*~
+*.swp
+*.bak
+dummy_ksp

@@ -1,0 +1,14 @@
+spec_version: v1.31
+identifier: BepInEx
+$kref: '#/ckan/spacedock/3255'
+license: LGPL-3.0
+tags:
+  - plugin
+  - library
+install:
+  - find: BepInEx
+    install_to: GameRoot
+  - file: doorstop_config.ini
+    install_to: GameRoot
+  - file: winhttp.dll
+    install_to: GameRoot
