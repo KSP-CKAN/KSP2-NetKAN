@@ -1,6 +1,7 @@
 spec_version: v1.31
 identifier: LazyOrbit
 $kref: '#/ckan/spacedock/3258'
+$vref: '#/ckan/space-warp'
 license: CC-BY-SA-4.0
 tags:
   - plugin
@@ -8,4 +9,4 @@ depends:
   - name: SpaceWarp
 install:
   - find: LazyOrbit
-    install_to: SpaceWarp/Mods
+    install_to: BepInEx/plugins
