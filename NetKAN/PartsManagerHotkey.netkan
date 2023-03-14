@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: PartsManagerHotkey
+$kref: '#/ckan/spacedock/3314'
+license: LGPL-3.0
+tags:
+  - plugin
+  - editor
+depends:
+  - name: BepInEx
+install:
+  - find: PartsManagerHotkey
+    install_to: BepInEx/plugins

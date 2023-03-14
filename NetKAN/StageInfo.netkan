@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: StageInfo
+$kref: '#/ckan/spacedock/3272'
+license: restricted
+tags:
+  - plugin
+  - information
+depends:
+  - name: SpaceWarp
+install:
+  - find: StageInfo
+    install_to: BepInEx/plugins
