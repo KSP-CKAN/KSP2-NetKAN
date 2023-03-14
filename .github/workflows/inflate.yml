@@ -37,6 +37,7 @@ jobs:
                   PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
                   EVENT_BEFORE: ${{ github.event.before }}
               with:
+                  game: KSP2
                   source: commits
                   diff meta root: .CKAN-meta
                   pull request url: ${{ github.event.pull_request.url }}
