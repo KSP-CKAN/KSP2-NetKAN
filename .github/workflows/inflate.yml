@@ -17,11 +17,11 @@ jobs:
               with:
                   ref: ${{ github.event.pull_request.head.sha }}
                   fetch-depth: 0
-            - name: Get CKAN-meta repo
+            - name: Get KSP2-CKAN-meta repo
               uses: actions/checkout@v2
               with:
-                  repository: KSP-CKAN/CKAN-meta
-                  path: .CKAN-meta
+                  repository: KSP-CKAN/KSP2-CKAN-meta
+                  path: .KSP2-CKAN-meta
             - name: Cache downloads
               if: ${{ github.event_name == 'pull_request' }}
               uses: actions/cache@v2
@@ -39,7 +39,7 @@ jobs:
               with:
                   game: KSP2
                   source: commits
-                  diff meta root: .CKAN-meta
+                  diff meta root: .KSP2-CKAN-meta
                   pull request url: ${{ github.event.pull_request.url }}
             - name: Chmod cached files so actions/cache and actions/upload-artifact can read them
               run: sudo chmod -R a+r .cache
