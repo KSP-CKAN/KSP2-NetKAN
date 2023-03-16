@@ -2,6 +2,8 @@ spec_version: v1.18
 identifier: PaigeBGone
 $kref: '#/ckan/github/amahlaka/P.A.I.G.E-B-Gone'
 license: MIT
+resources:
+  spacedock: https://spacedock.info/mod/3280/P.A.I.G.E-B-Gone
 tags:
   - plugin
 depends:
