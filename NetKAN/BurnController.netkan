@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: BurnController
+$kref: '#/ckan/spacedock/3330'
+license: MIT
+tags:
+  - plugin
+  - control
+depends:
+  - name: SpaceWarp
+install:
+  - find: BurnController
+    install_to: BepInEx/plugins
