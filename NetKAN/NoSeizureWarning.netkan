@@ -1,0 +1,11 @@
+spec_version: v1.18
+identifier: NoSeizureWarning
+$kref: '#/ckan/spacedock/3337'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: NoSeizureWarning
+    install_to: BepInEx/plugins
