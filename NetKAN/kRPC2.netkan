@@ -1,6 +1,7 @@
 spec_version: v1.18
 identifier: kRPC2
 $kref: '#/ckan/spacedock/3322'
+$vref: '#/ckan/space-warp'
 license: GPL-3.0
 tags:
   - plugin

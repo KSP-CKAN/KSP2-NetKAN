@@ -1,6 +1,7 @@
 spec_version: v1.18
 identifier: Kalkulator
 $kref: '#/ckan/spacedock/3327'
+$vref: '#/ckan/space-warp'
 license: CC-BY-ND
 tags:
   - plugin

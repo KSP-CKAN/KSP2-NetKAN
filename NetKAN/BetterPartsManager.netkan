@@ -1,6 +1,7 @@
 spec_version: v1.18
 identifier: BetterPartsManager
 $kref: '#/ckan/spacedock/3292'
+$vref: '#/ckan/space-warp'
 license: CC-BY-NC-ND
 tags:
   - plugin
