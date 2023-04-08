@@ -1,13 +1,13 @@
 spec_version: v1.18
 identifier: UtilityUplift
 $kref: '#/ckan/spacedock/3351'
-license: CC-BY-SA
 $vref: '#/ckan/space-warp'
+license: CC-BY-SA-4.0
 tags:
   - plugin
+  - parts
 depends:
   - name: SpaceWarp
 install:
   - find: utilityuplift
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission
