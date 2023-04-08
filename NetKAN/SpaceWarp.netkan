@@ -17,4 +17,3 @@ install:
     install_to: GameRoot
   - file: doorstop_config.ini
     install_to: GameRoot
-    
