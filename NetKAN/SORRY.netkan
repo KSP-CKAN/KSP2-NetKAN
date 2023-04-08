@@ -9,5 +9,5 @@ tags:
 depends:
   - name: SpaceWarp
 install:
-  - find: SORRY
-    install_to: BepInEx/plugins
+  - find: BepInEx
+    install_to: GameRoot
