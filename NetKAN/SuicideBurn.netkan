@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: SuicideBurn
+$kref: '#/ckan/spacedock/3311'
+$vref: '#/ckan/space-warp'
+license: CC-BY-NC-ND
+tags:
+  - plugin
+  - control
+depends:
+  - name: SpaceWarp
+install:
+  - find: suicide_burn
+    install_to: BepInEx/plugins
