@@ -8,3 +8,6 @@ tags:
   - parts
 depends:
   - name: SpaceWarp
+install:
+  - find: SORRY
+    install_to: BepInEx/plugins
