@@ -6,10 +6,15 @@ license: MIT
 tags:
   - plugin
   - library
-depends:
+conflicts:
   - name: BepInEx
+provides:
+  - BepInEx
 install:
-  - find: ConfigurationManager
-    install_to: BepInEx/plugins
-  - find: SpaceWarp
-    install_to: BepInEx/plugins
+  - find: BepInEx
+    install_to: GameRoot
+  - file: winhttp.dll
+    install_to: GameRoot
+  - file: doorstop_config.ini
+    install_to: GameRoot
+    
