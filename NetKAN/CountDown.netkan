@@ -1,13 +1,13 @@
 spec_version: v1.18
 identifier: CountDown
 $kref: '#/ckan/spacedock/3328'
-license: MIT
 $vref: '#/ckan/space-warp'
+license: MIT
 tags:
   - plugin
+  - sound
 depends:
   - name: SpaceWarp
 install:
   - find: Count_Down
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission
