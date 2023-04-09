@@ -2,7 +2,12 @@ spec_version: v1.18
 identifier: GalaxyTweaker
 $kref: '#/ckan/spacedock/3331'
 license: MIT
+$vref: '#/ckan/space-warp'
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
 install:
-  - find: GalaxyTweaker (1.0.0 is experimental, 0.0.5 is stable)
+  - find: galaxy_tweaker
     install_to: BepInEx/plugins
 x_via: Automated SpaceDock CKAN submission
