@@ -1,13 +1,14 @@
 spec_version: v1.18
 identifier: KerbonautManager
 $kref: '#/ckan/spacedock/3310'
-license: MIT
 $vref: '#/ckan/space-warp'
+license: MIT
 tags:
   - plugin
+  - editor
+  - crewed
 depends:
   - name: SpaceWarp
 install:
   - find: kerbonaut_manager
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission
