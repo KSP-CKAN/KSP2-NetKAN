@@ -16,7 +16,7 @@ jobs:
             - name: Get CKAN-meta repo
               uses: actions/checkout@v2
               with:
-                  repository: KSP-CKAN/CKAN-meta
+                  repository: KSP-CKAN/KSP2-CKAN-meta
                   path: CKAN-meta
             - name: Manual inflate
               uses: HebaruSan/inflate-netkan@master
@@ -26,3 +26,4 @@ jobs:
                   AWS_DEFAULT_REGION:    ${{ secrets.AWS_DEFAULT_REGION    }}
               with:
                   identifier: ${{ github.event.inputs.identifier }}
+                  game id: ksp2
