@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: GalaxyTweaker
+$kref: '#/ckan/spacedock/3331'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+  - planet-pack
+depends:
+  - name: SpaceWarp
+install:
+  - find: galaxy_tweaker
+    install_to: BepInEx/plugins
