@@ -1,6 +1,9 @@
-spec_version: v1.31
+spec_version: v1.32
 identifier: BepInEx
-$kref: '#/ckan/spacedock/3255'
+name: BepInEx
+abstract: Modloader for Unity games
+$kref: '#/ckan/spacedock/3277'
+x_netkan_epoch: 1
 license: LGPL-3.0
 tags:
   - plugin
@@ -8,6 +11,9 @@ tags:
 install:
   - find: BepInEx
     install_to: GameRoot
+    include_only:
+      - config
+      - core
   - file: doorstop_config.ini
     install_to: GameRoot
   - file: winhttp.dll
