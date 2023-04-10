@@ -1,10 +1,13 @@
 spec_version: v1.18
 identifier: KerbalView
 $kref: '#/ckan/spacedock/3286'
-license: MIT
 $vref: '#/ckan/space-warp'
+license: MIT
 tags:
   - plugin
+  - crewed
 depends:
   - name: SpaceWarp
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find: KerbalView
+    install_to: BepInEx/plugins
