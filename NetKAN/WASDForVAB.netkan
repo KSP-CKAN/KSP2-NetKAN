@@ -1,14 +1,14 @@
 spec_version: v1.18
 identifier: WASDForVAB
 $kref: '#/ckan/spacedock/3276'
-license: MIT
 $vref: '#/ckan/space-warp'
+license: MIT
 tags:
   - plugin
+  - convenience
 depends:
   - name: SpaceWarp
 install:
   - find: wasd_for_vab
     install_to: BepInEx/plugins
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
