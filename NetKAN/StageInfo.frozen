@@ -10,3 +10,4 @@ depends:
 install:
   - find: StageInfo
     install_to: BepInEx/plugins
+
