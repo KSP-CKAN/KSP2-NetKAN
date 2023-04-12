@@ -1,14 +1,15 @@
 spec_version: v1.18
 identifier: K2D2
 $kref: '#/ckan/spacedock/3325'
-license: CC-BY-SA
 $vref: '#/ckan/space-warp'
+license: CC-BY-SA
 tags:
   - plugin
+  - information
+  - control
 depends:
   - name: SpaceWarp
 install:
   - find: K2D2
     install_to: BepInEx/plugins
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
