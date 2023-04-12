@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: FlightPlan
+$kref: '#/ckan/spacedock/3359'
+license: GPL-3.0
+$vref: '#/ckan/space-warp'
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: flight_plan
+    install_to: BepInEx/plugins
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
