@@ -3,8 +3,14 @@ identifier: KontrolSystem2
 $kref: '#/ckan/spacedock/3316'
 $vref: '#/ckan/space-warp'
 license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/214543-*
+  manual: https://kontrolsystem2.readthedocs.io/
 tags:
   - plugin
+  - control
 depends:
   - name: SpaceWarp
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find: KontrolSystem2
+    install_to: BepInEx/plugins
