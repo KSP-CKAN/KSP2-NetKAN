@@ -1,10 +1,10 @@
 spec_version: v1.18
 identifier: ShadowUtilityLIB
 $kref: '#/ckan/spacedock/3345'
-license: CC-BY-NC-ND
 $vref: '#/ckan/space-warp'
+license: CC-BY-NC-ND
 tags:
   - plugin
+  - library
 depends:
   - name: SpaceWarp
-x_via: Automated SpaceDock CKAN submission
