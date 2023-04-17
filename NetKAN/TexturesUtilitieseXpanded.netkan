@@ -5,10 +5,9 @@ $vref: '#/ckan/space-warp'
 license: MIT
 tags:
   - plugin
-  - config
+  - graphics
 depends:
   - name: SpaceWarp
 install:
   - find: tux
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission
