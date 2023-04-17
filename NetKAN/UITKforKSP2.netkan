@@ -1,4 +1,4 @@
-spec_version: v1.18
+spec_version: v1.32
 identifier: UITKforKSP2
 $kref: '#/ckan/spacedock/3363'
 $vref: '#/ckan/space-warp'
