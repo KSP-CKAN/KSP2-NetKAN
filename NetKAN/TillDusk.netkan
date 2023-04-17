@@ -5,6 +5,6 @@ $vref: '#/ckan/space-warp'
 license: GPL-3.0
 tags:
   - plugin
+  - convenience
 depends:
   - name: SpaceWarp
-x_via: Automated SpaceDock CKAN submission
