@@ -1,0 +1,17 @@
+spec_version: v1.32
+identifier: UITKforKSP2
+$kref: '#/ckan/spacedock/3363'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+  - library
+depends:
+  - name: BepInEx
+install:
+  - find: BepInEx
+    install_to: GameRoot
+    include_only:
+      - patchers
+      - plugins
+x_via: Automated SpaceDock CKAN submission
