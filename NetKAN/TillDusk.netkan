@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: TillDusk
+identifier: till_dusk
 $kref: '#/ckan/spacedock/3362'
 $vref: '#/ckan/space-warp'
 license: GPL-3.0
