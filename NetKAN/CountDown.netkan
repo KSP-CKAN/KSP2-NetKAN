@@ -8,6 +8,7 @@ tags:
   - sound
 depends:
   - name: SpaceWarp
+  - name: ShadowUtilityLIB
 install:
   - find: Count_Down
     install_to: BepInEx/plugins
