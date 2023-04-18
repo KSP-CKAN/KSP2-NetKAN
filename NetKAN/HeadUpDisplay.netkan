@@ -1,13 +1,13 @@
 spec_version: v1.18
-identifier: HUDHeadUpDisplay
+identifier: HeadUpDisplay
 $kref: '#/ckan/spacedock/3334'
 $vref: '#/ckan/space-warp'
 license: MIT
 tags:
   - plugin
+  - information
 depends:
   - name: SpaceWarp
 install:
   - find: hud
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission
