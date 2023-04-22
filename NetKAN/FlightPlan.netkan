@@ -9,6 +9,7 @@ tags:
   - control
 depends:
   - name: SpaceWarp
+  - name: NodeManager
 install:
   - find: flight_plan
     install_to: BepInEx/plugins
