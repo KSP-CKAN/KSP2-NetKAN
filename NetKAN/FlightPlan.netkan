@@ -1,4 +1,4 @@
-spec_version: v1.18
+spec_version: v1.32
 identifier: FlightPlan
 $kref: '#/ckan/spacedock/3359'
 $vref: '#/ckan/space-warp'
@@ -9,6 +9,7 @@ tags:
   - control
 depends:
   - name: SpaceWarp
+  - name: NodeManager
 install:
   - find: flight_plan
     install_to: BepInEx/plugins
