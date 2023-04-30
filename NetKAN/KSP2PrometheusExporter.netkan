@@ -5,6 +5,8 @@ $vref: '#/ckan/space-warp'
 license: Apache-2.0
 tags:
   - plugin
+  - app
+  - information
 depends:
   - name: SpaceWarp
 install:
