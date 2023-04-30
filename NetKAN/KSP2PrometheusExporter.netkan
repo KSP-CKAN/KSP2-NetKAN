@@ -2,7 +2,7 @@ spec_version: v1.18
 identifier: KSP2PrometheusExporter
 $kref: '#/ckan/spacedock/3370'
 $vref: '#/ckan/space-warp'
-license: Apache-License-v2.0
+license: Apache-2.0
 tags:
   - plugin
 depends:
@@ -10,4 +10,3 @@ depends:
 install:
   - find: ksp2_prometheus_exporter
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission
