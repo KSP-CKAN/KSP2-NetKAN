@@ -1,10 +1,13 @@
-spec_version: v1.18
+spec_version: v1.32
 identifier: ShowKSP2Events
 $kref: '#/ckan/spacedock/3375'
 $vref: '#/ckan/space-warp'
 license: MIT
 tags:
   - plugin
+  - information
 depends:
   - name: SpaceWarp
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find: ShowKSP2Events
+    install_to: BepInEx/plugins
