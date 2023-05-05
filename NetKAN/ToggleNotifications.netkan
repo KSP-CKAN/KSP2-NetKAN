@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: ToggleNotifications
+$kref: '#/ckan/spacedock/3377'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+x_via: Automated SpaceDock CKAN submission
