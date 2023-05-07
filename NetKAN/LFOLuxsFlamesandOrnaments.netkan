@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: LFOLuxsFlamesandOrnaments
+$kref: '#/ckan/spacedock/3383'
+$vref: '#/ckan/space-warp'
+license: GPL-3.0
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: LFO
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
