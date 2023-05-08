@@ -1,4 +1,4 @@
-spec_version: v1.18
+spec_version: v1.32
 identifier: SORRY
 $kref: '#/ckan/spacedock/3336'
 $vref: '#/ckan/space-warp'
@@ -8,6 +8,10 @@ tags:
   - parts
 depends:
   - name: SpaceWarp
+  - name: LuxsFlamesandOrnaments
+recommends:
+  - name: LuxsOABExtensions
+  - name: CommunityFixes
 install:
   - find: BepInEx
     install_to: GameRoot
