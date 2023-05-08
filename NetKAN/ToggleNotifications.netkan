@@ -1,4 +1,4 @@
-spec_version: v1.18
+spec_version: v1.32
 identifier: ToggleNotifications
 $kref: '#/ckan/spacedock/3377'
 $vref: '#/ckan/space-warp'
@@ -7,4 +7,6 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find: ToggleNotifications
+    install_to: BepInEx/plugins
