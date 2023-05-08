@@ -1,0 +1,14 @@
+spec_version: v1.32
+identifier: UnityExplorer
+name: Unity Explorer
+abstract: An in-game UI for exploring, debugging and modifying Unity games
+$kref: '#/ckan/github/sinai-dev/UnityExplorer/asset_match/^UnityExplorer\.BepInEx5\.Mono\.zip$'
+ksp_version: any
+license: GPL-3.0
+tags:
+  - plugin
+depends:
+  - name: BepInEx
+install:
+  - find: sinai-dev-UnityExplorer
+    install_to: BepInEx/plugins
