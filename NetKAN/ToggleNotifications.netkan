@@ -1,0 +1,12 @@
+spec_version: v1.32
+identifier: ToggleNotifications
+$kref: '#/ckan/spacedock/3377'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: ToggleNotifications
+    install_to: BepInEx/plugins
