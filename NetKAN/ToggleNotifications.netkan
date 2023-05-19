@@ -8,5 +8,5 @@ tags:
 depends:
   - name: SpaceWarp
 install:
-  - find: ToggleNotifications
+  - find_regexp: Toggle ?Notifications.*
     install_to: BepInEx/plugins
