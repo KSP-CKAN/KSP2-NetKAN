@@ -9,6 +9,7 @@ tags:
   - library
 depends:
   - name: BepInEx
+  - name: UITKforKSP2
 install:
   - find: BepInEx
     install_to: GameRoot
