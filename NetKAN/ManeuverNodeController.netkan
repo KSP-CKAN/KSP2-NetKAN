@@ -8,6 +8,7 @@ tags:
   - convenience
 depends:
   - name: SpaceWarp
+  - name: NodeManager
 install:
   - find: maneuver_node_controller
     install_to: BepInEx/plugins
