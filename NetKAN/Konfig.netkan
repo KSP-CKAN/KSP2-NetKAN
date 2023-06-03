@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: Konfig
+$kref: '#/ckan/spacedock/3401'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: Konfig
+    install_to: BepInEx/plugins
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
