@@ -8,5 +8,5 @@ tags:
 depends:
   - name: SpaceWarp
 install:
-  - find: community_fixes
+  - find: CommunityFixes
     install_to: BepInEx/plugins
