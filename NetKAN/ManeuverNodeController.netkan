@@ -9,6 +9,7 @@ tags:
 depends:
   - name: SpaceWarp
   - name: NodeManager
+  - name: UITKforKSP2
 install:
   - find: maneuver_node_controller
     install_to: BepInEx/plugins
