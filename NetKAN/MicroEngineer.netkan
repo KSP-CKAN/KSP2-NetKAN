@@ -8,6 +8,7 @@ tags:
   - information
 depends:
   - name: SpaceWarp
+  - name: UITKforKSP2
 install:
   - find: micro_engineer
     install_to: BepInEx/plugins
