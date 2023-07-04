@@ -10,6 +10,7 @@ tags:
 depends:
   - name: SpaceWarp
   - name: NodeManager
+  - name: UITKforKSP2
 install:
   - find: flight_plan
     install_to: BepInEx/plugins
