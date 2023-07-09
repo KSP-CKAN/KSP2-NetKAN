@@ -7,6 +7,7 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
+  - name: ShadowUtilityLIB
 install:
   - find: Konfig
     install_to: BepInEx/plugins
