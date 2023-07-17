@@ -5,6 +5,8 @@ license: MIT
 tags:
   - plugin
 install:
-  - find: ''
-    install_to: BepInEx/plugins
+  - find: BepInEx
+    install_to: GameRoot
+  - find: GameData
+    install_to: GameRoot
 x_via: Automated SpaceDock CKAN submission
