@@ -8,3 +8,6 @@ tags:
   - convenience
 depends:
   - name: SpaceWarp
+install:
+  - find: till_dusk
+    install_to: BepInEx/plugins
