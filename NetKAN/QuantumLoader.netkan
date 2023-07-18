@@ -4,6 +4,8 @@ $kref: '#/ckan/spacedock/3425'
 license: MIT
 tags:
   - plugin
+depends:
+  - name: BepInEx
 install:
   - find: Quantum
     install_to: BepInEx/plugins
