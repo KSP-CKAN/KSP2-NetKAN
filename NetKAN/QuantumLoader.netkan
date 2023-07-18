@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: QuantumLoader
+$kref: '#/ckan/spacedock/3425'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: BepInEx
+install:
+  - find: Quantum
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
