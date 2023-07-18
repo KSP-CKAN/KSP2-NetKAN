@@ -7,3 +7,4 @@ tags:
 install:
   - find: inputbinder
     install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
