@@ -7,3 +7,6 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
+install:
+  - find: UIScaler
+    install_to: BepInEx/plugins
