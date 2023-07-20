@@ -8,3 +8,6 @@ tags:
   - editor
 depends:
   - name: SpaceWarp
+install:
+  - find: LuxsOABExtensions
+    install_to: BepInEx/plugins

@@ -9,3 +9,6 @@ tags:
 depends:
   - name: SpaceWarp
   - name: UITKforKSP2
+install:
+  - find: ShadowUtilityLIB
+    install_to: BepInEx/plugins

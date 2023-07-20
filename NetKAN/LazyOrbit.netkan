@@ -7,4 +7,6 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find: LazyOrbit
+    install_to: BepInEx/plugins
