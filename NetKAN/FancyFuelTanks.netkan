@@ -1,0 +1,8 @@
+spec_version: v1.18
+identifier: FancyFuelTanks
+$kref: '#/ckan/spacedock/3431'
+license: MIT
+install:
+  - find: FFT
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
