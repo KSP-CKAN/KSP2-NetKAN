@@ -2,6 +2,8 @@ spec_version: v1.18
 identifier: QuantumModMenu
 $kref: '#/ckan/spacedock/3427'
 license: MIT
+depends:
+  - name: QuantumLoader
 tags:
   - plugin
 x_via: Automated SpaceDock CKAN submission
