@@ -5,6 +5,8 @@ $vref: '#/ckan/space-warp'
 license: MIT
 tags:
   - parts
+depends:
+  - name: SpaceWarp
 install:
   - find: FFT
     install_to: BepInEx/plugins
