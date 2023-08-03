@@ -8,6 +8,6 @@ tags:
 depends:
   - name: SpaceWarp
 install:
-  - find: ''
+  - find: DockingAlignmentDisplay
     install_to: BepInEx/plugins
 x_via: Automated SpaceDock CKAN submission
