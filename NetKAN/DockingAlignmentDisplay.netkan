@@ -7,7 +7,7 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
-  - name: UITKForKsp2
+  - name: UITKforKSP2
 install:
   - find: DockingAlignmentDisplay
     install_to: BepInEx/plugins
