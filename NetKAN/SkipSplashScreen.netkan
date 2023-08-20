@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: SkipSplashScreen
+$kref: '#/ckan/spacedock/3441'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: ''
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
