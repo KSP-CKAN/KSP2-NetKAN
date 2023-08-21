@@ -7,6 +7,3 @@ tags:
   - editor
 depends:
   - name: QuantumLoader
-install:
-  - find: kerbal_part_manager
-    install_to: GameData/Mods
