@@ -8,5 +8,5 @@ tags:
 depends:
   - name: QuantumLoader
 install:
-  - find: kerbal_part_manager
+  - find: BetterPartsManager
     install_to: GameData/Mods
