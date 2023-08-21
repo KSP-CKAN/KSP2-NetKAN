@@ -7,6 +7,3 @@ tags:
   - editor
 depends:
   - name: QuantumLoader
-install:
-  - find: BetterPartsManager
-    install_to: GameData/Mods
