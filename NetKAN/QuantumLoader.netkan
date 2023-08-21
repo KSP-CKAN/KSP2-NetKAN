@@ -6,6 +6,9 @@ tags:
   - plugin
 depends:
   - name: BepInEx
+conflicts:
+  - name: SpaceWarp
+    min_version: 1.4.0
 install:
   - find: Quantum
     install_to: BepInEx/plugins
