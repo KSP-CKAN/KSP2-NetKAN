@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: QuestariaAereospace
+$kref: '#/ckan/spacedock/3444'
+$vref: '#/ckan/space-warp'
+license: Other
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: QuestariaAerospace
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
