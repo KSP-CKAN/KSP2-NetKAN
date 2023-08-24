@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: QuestariaAereospace
+$kref: '#/ckan/spacedock/3444'
+$vref: '#/ckan/space-warp'
+license: restricted
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+  - name: LuxsFlamesandOrnaments
+install:
+  - find: BepInEx/plugins/QuestariaAerospace
+    install_to: BepInEx/plugins
