@@ -9,5 +9,5 @@ depends:
   - name: SpaceWarp
   - name: LuxsFlamesandOrnaments
 install:
-  - find: QuestariaAerospace
+  - find: BepInEx/plugins/QuestariaAerospace
     install_to: BepInEx/plugins
