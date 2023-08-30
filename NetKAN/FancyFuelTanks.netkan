@@ -8,5 +8,5 @@ tags:
 depends:
   - name: SpaceWarp
 install:
-  - find: FFT
+  - find_regexp: FFT.*
     install_to: BepInEx/plugins
