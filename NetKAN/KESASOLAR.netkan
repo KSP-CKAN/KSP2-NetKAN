@@ -1,7 +1,10 @@
 spec_version: v1.18
 identifier: KESASOLAR
 $kref: '#/ckan/spacedock/3453'
+$vref: '#/ckan/space-warp'
 license: GPL-3.0
+tags:
+  - parts
 install:
   - find: kesa_solar
     install_to: BepInEx/plugins
