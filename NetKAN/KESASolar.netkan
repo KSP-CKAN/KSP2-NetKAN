@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: KESASOLAR
+identifier: KESASo
 $kref: '#/ckan/spacedock/3453'
 $vref: '#/ckan/space-warp'
 license: GPL-3.0
