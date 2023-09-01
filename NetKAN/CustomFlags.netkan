@@ -9,5 +9,5 @@ tags:
 depends:
   - name: SpaceWarp
 install:
-  - find: custom-flags
+  - find: CustomFlags
     install_to: BepInEx/plugins
