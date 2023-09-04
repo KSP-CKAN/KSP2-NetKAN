@@ -1,5 +1,12 @@
 spec_version: v1.18
 identifier: Leek
 $kref: '#/ckan/spacedock/3450'
+$vref: '#/ckan/space-warp'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - parts
+depends:
+  - name: SpaceWarp
+install:
+  - find: Leek
+    install_to: BepInEx/plugins
