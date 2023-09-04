@@ -2,4 +2,8 @@ spec_version: v1.18
 identifier: KerbolExpansion
 $kref: '#/ckan/spacedock/3458'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: Konfig
