@@ -7,3 +7,6 @@ tags:
   - planet-pack
 depends:
   - name: Konfig
+install:
+  - find: KerbolExpansion
+    install_to: BepInEx/plugins
