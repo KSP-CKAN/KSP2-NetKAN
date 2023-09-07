@@ -1,8 +1,13 @@
 spec_version: v1.18
 identifier: FancyFuelTanks
+name: Fancy Fuel Tanks
+abstract: FFT adds visually appealing Fuel Tanks to KSP2!
 $kref: '#/ckan/github/cvusmo/FFT'
 $vref: '#/ckan/space-warp'
 license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/218451-*
+  spacedock: https://spacedock.info/mod/3431/Fancy%20Fuel%20Tanks
 tags:
   - parts
 depends:
