@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: KerbolExpansion
+$kref: '#/ckan/spacedock/3458'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: Konfig
+install:
+  - find: KerbolExpansion
+    install_to: BepInEx/plugins
