@@ -1,6 +1,6 @@
 spec_version: v1.18
 identifier: FancyFuelTanks
-$kref: '#/ckan/spacedock/3431'
+$kref: '#/ckan/github/cvusmo/FFT'
 $vref: '#/ckan/space-warp'
 license: MIT
 tags:
