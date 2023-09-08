@@ -8,5 +8,5 @@ tags:
 depends:
   - name: SpaceWarp
 install:
-  - find: kesa_solar
+  - find: kesasolar
     install_to: BepInEx/plugins
