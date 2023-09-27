@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: TheNuclearOption
+$kref: '#/ckan/spacedock/3471'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - config
+depends:
+  - name: SpaceWarp
+install:
+  - find: TNO
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
