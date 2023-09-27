@@ -7,6 +7,7 @@ tags:
   - config
 depends:
   - name: SpaceWarp
+  - name: LuxsFlamesandOrnaments
 install:
   - find: SPARK
     install_to: BepInEx/plugins
