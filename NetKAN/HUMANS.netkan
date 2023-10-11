@@ -10,4 +10,6 @@ depends:
 install:
   - find: Humans
     install_to: BepInEx/plugins
+  - find: flags
+    install_to: GameRoot
 x_via: Automated SpaceDock CKAN submission
