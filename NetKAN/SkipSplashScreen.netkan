@@ -7,7 +7,4 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
-install:
-  - find: SkipSplashScreen
-    install_to: BepInEx/plugins
 x_via: Automated SpaceDock CKAN submission
