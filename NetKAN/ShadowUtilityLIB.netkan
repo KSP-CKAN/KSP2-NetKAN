@@ -6,7 +6,8 @@ tags:
   - plugin
   - library
 install:
-  - find: ShadowUtilityLIB
-    install_to: BepInEx/plugins
-  - find: Slib
-    install_to: BepInEx/patchers
+  - find: BepInEx
+    install_to: GameRoot
+    include_only:
+      - patchers
+      - plugins
