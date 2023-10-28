@@ -1,0 +1,18 @@
+spec_version: v1.24
+identifier: KerbalLifeSupportSystem
+$kref: '#/ckan/spacedock/3485'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+  - parts
+  - crewed
+depends:
+  - name: UITKforKSP2
+  - name: SpaceWarp
+  - name: PatchManager
+  - name: CommunityResources
+install:
+  - find: 'KerbalLifeSupportSystem'
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
