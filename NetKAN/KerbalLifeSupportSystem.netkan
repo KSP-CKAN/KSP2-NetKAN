@@ -8,6 +8,7 @@ tags:
   - parts
   - crewed
 depends:
+  - name: UITKforKSP2
   - name: SpaceWarp
   - name: PatchManager
   - name: CommunityResources
