@@ -5,9 +5,13 @@ $vref: '#/ckan/space-warp'
 license: MIT
 tags:
   - plugin
+  - library
 depends:
   - name: SpaceWarp
 install:
-  - find: ''
-    install_to: BepInEx/plugins
+  - find: BepInEx
+    install_to: GameRoot
+    include_only:
+      - patchers
+      - plugins
 x_via: Automated SpaceDock CKAN submission
