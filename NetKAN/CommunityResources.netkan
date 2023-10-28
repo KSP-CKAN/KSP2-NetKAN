@@ -1,0 +1,16 @@
+spec_version: v1.18
+identifier: CommunityResources
+$kref: '#/ckan/spacedock/3484'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+  - library
+  - config
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: CommunityResources
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
