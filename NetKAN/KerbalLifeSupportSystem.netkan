@@ -1,4 +1,4 @@
-spec_version: v1.18
+spec_version: v1.24
 identifier: KerbalLifeSupportSystem
 $kref: '#/ckan/spacedock/3485'
 $vref: '#/ckan/space-warp'
@@ -7,6 +7,8 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
+  - name: PatchManager
+  - name: CommunityResources
 install:
   - find: ''
     install_to: BepInEx/plugins
