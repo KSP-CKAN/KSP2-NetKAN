@@ -5,6 +5,12 @@ $vref: '#/ckan/space-warp'
 license: MIT
 tags:
   - plugin
+  - library
+  - config
 depends:
   - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: CommunityResources
+    install_to: BepInEx/plugins
 x_via: Automated SpaceDock CKAN submission
