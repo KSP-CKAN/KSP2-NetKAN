@@ -5,11 +5,13 @@ $vref: '#/ckan/space-warp'
 license: MIT
 tags:
   - plugin
+  - parts
+  - crewed
 depends:
   - name: SpaceWarp
   - name: PatchManager
   - name: CommunityResources
 install:
-  - find: ''
+  - find: 'KerbalLifeSupportSystem'
     install_to: BepInEx/plugins
 x_via: Automated SpaceDock CKAN submission
