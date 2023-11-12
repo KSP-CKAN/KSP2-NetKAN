@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: Blackskyskybox
+$kref: '#/ckan/spacedock/3502'
+tags:
+  - config
+license: MIT
+install:
+  - find: BlackSky
+    install_to: BepInEx/plugins
+depends:
+  - name: Konfig
+x_via: Automated SpaceDock CKAN submission
