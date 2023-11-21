@@ -7,7 +7,7 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
+  - name: LuxsFlamesandOrnaments
 install:
   - find: kesa
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission
