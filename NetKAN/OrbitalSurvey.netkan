@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: OrbitalSurvey
+$kref: '#/ckan/spacedock/3519'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+  - config
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+x_via: Automated SpaceDock CKAN submission
