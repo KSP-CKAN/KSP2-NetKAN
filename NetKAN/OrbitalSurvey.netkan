@@ -9,4 +9,7 @@ tags:
 depends:
   - name: SpaceWarp
   - name: PatchManager
+install:
+  - find: OrbitalSurvey
+    install_to: BepInEx/plugins
 x_via: Automated SpaceDock CKAN submission
