@@ -6,6 +6,7 @@ license: MIT
 tags:
   - plugin
   - crewed
+  - first-person
 depends:
   - name: SpaceWarp
 install:
