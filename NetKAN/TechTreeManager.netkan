@@ -8,4 +8,7 @@ install:
   - find: TechTreeManager
     install_to: BepInEx/plugins
     filter_regexp: \.pdb$
+depends:
+  - name: SpaceWarp
+  - name: ShadowUtilityLIB
 x_via: Automated SpaceDock CKAN submission
