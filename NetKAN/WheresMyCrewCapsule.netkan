@@ -5,10 +5,15 @@ $vref: '#/ckan/space-warp'
 license: MIT
 tags:
   - config
+  - tech-tree
+  - career
+  - uncrewed
+  - science
 depends:
   - name: SpaceWarp
   - name: PatchManager
+  - name: WMCCModules
 install:
-  - find: WheresMyCrewCapsule-0.0.1
+  - find: WheresMyCrewCapsule
     install_to: BepInEx/plugins
 x_via: Automated SpaceDock CKAN submission
