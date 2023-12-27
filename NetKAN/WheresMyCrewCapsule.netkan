@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: WheresMyCrewCapsule
+$kref: '#/ckan/spacedock/3531'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - config
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: WheresMyCrewCapsule-0.0.1
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
