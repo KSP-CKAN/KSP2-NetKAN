@@ -1,0 +1,12 @@
+spec_version: v1.24
+identifier: TextAssetDumper
+$kref: '#/ckan/github/KSP2Community/TextAssetDumper'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: TextAssetDumper
+    install_to: BepInEx/plugins
