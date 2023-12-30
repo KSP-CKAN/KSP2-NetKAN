@@ -5,6 +5,8 @@ $vref: '#/ckan/space-warp'
 license: MIT
 tags:
   - plugin
+  - convenience
+  - information
 depends:
   - name: SpaceWarp
 install:
