@@ -8,6 +8,7 @@ tags:
 depends:
   - name: SpaceWarp
   - name: LuxsFlamesandOrnaments
+  - name: PatchManager
 install:
   - find: kesa
     install_to: BepInEx/plugins
