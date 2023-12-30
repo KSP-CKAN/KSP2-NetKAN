@@ -7,6 +7,7 @@ tags:
   - parts
 depends:
   - name: SpaceWarp
+  - name: PatchManager
 install:
   - find: kesasolar
     install_to: BepInEx/plugins
