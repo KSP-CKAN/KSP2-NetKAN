@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: AlarmClock
+$kref: '#/ckan/spacedock/3533'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: AlarmClockForKSP2
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
