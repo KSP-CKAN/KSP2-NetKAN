@@ -6,7 +6,7 @@ license: CC-BY-NC-ND
 tags:
   - plugin
 depends:
-  - name: SpaceWarp
+  - name: ShadowUtilityLIB
 install:
   - find: kerbal_web_program
     install_to: BepInEx/plugins
