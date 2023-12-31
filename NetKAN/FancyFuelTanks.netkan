@@ -1,4 +1,4 @@
-spec_version: v1.18
+spec_version: v1.34
 identifier: FancyFuelTanks
 name: Fancy Fuel Tanks
 abstract: FFT adds visually appealing Fuel Tanks to KSP2!
@@ -9,9 +9,21 @@ x_netkan_version_edit:
   strict: false
 $vref: '#/ckan/space-warp'
 license: MIT
-resources:
-  homepage: https://forum.kerbalspaceprogram.com/topic/218451-*
-  spacedock: https://spacedock.info/mod/3431/Fancy%20Fuel%20Tanks
+tags:
+  - parts
+depends:
+  - name: SpaceWarp
+install:
+  - find_regexp: FFT.*
+    install_to: BepInEx/plugins
+---
+spec_version: v1.34
+identifier: FancyFuelTanks
+name: Fancy Fuel Tanks
+abstract: FFT adds visually appealing Fuel Tanks to KSP2!
+$kref: '#/ckan/spacedock/3431'
+$vref: '#/ckan/space-warp'
+license: MIT
 tags:
   - parts
 depends:

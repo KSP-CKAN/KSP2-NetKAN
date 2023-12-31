@@ -1,4 +1,29 @@
-spec_version: v1.24
+spec_version: v1.34
+identifier: PatchManager
+$kref: '#/ckan/github/KSP2Community/PatchManager'
+$vref: '#/ckan/space-warp'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+license: MIT
+tags:
+  - plugin
+  - library
+depends:
+  - name: SpaceWarp
+install:
+  - find: BepInEx
+    install_to: GameRoot
+    include_only:
+      - patchers
+      - plugins
+x_netkan_override:
+  - version: '0.7.3'
+    override:
+      ksp_version_max: '0.2.0'
+---
+spec_version: v1.34
 identifier: PatchManager
 $kref: '#/ckan/spacedock/3482'
 $vref: '#/ckan/space-warp'
@@ -14,4 +39,3 @@ install:
     include_only:
       - patchers
       - plugins
-x_via: Automated SpaceDock CKAN submission

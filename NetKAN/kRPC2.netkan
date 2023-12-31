@@ -1,4 +1,23 @@
-spec_version: v1.18
+spec_version: v1.34
+identifier: kRPC2
+$kref: '#/ckan/github/krpc/krpc2'
+$vref: '#/ckan/space-warp'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+license: GPL-3.0
+tags:
+  - plugin
+  - app
+  - control
+depends:
+  - name: SpaceWarp
+install:
+  - find: kRPC2
+    install_to: BepInEx/plugins
+---
+spec_version: v1.34
 identifier: kRPC2
 $kref: '#/ckan/spacedock/3322'
 $vref: '#/ckan/space-warp'

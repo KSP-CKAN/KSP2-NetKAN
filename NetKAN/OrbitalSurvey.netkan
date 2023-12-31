@@ -10,6 +10,7 @@ depends:
   - name: SpaceWarp
     min_version: 1.6.0
   - name: PatchManager
+  - name: UITKforKSP2
 install:
   - find: OrbitalSurvey
     install_to: BepInEx/plugins

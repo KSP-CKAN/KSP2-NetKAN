@@ -1,4 +1,30 @@
-spec_version: v1.24
+spec_version: v1.34
+identifier: KerbalLifeSupportSystem
+$kref: '#/ckan/github/Safarte/KerbalLifeSupportSystem'
+$vref: '#/ckan/space-warp'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+license: MIT
+tags:
+  - plugin
+  - parts
+  - crewed
+depends:
+  - name: UITKforKSP2
+  - name: SpaceWarp
+  - name: PatchManager
+  - name: CommunityResources
+install:
+  - find: KerbalLifeSupportSystem
+    install_to: BepInEx/plugins
+x_netkan_override:
+  - version: '0.5.2'
+    override:
+      ksp_version_max: '0.2.0'
+---
+spec_version: v1.34
 identifier: KerbalLifeSupportSystem
 $kref: '#/ckan/spacedock/3485'
 $vref: '#/ckan/space-warp'
@@ -13,6 +39,5 @@ depends:
   - name: PatchManager
   - name: CommunityResources
 install:
-  - find: 'KerbalLifeSupportSystem'
+  - find: KerbalLifeSupportSystem
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission

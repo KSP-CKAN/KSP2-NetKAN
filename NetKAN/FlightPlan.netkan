@@ -1,4 +1,22 @@
-spec_version: v1.32
+spec_version: v1.34
+identifier: FlightPlan
+$kref: '#/ckan/github/schlosrat/FlightPlan'
+$vref: '#/ckan/space-warp'
+license: GPL-3.0
+tags:
+  - plugin
+  - information
+  - control
+depends:
+  - name: SpaceWarp
+  - name: NodeManager
+  - name: UITKforKSP2
+install:
+  - find: flight_plan
+    install_to: BepInEx/plugins
+    filter_regexp: \.pdb$
+---
+spec_version: v1.34
 identifier: FlightPlan
 $kref: '#/ckan/spacedock/3359'
 $vref: '#/ckan/space-warp'

@@ -1,4 +1,17 @@
-spec_version: v1.18
+spec_version: v1.34
+identifier: UIScaler
+$kref: '#/ckan/github/Halbann/UIScaler'
+$vref: '#/ckan/space-warp'
+license: CC-BY-SA-4.0
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: UIScaler
+    install_to: BepInEx/plugins
+---
+spec_version: v1.34
 identifier: UIScaler
 $kref: '#/ckan/spacedock/3291'
 $vref: '#/ckan/space-warp'
