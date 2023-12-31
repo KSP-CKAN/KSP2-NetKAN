@@ -1,4 +1,21 @@
-spec_version: v1.18
+spec_version: v1.34
+identifier: WMCCModules
+$kref: '#/ckan/github/cheese3660/WMCCModules'
+$vref: '#/ckan/space-warp'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: WMCCModules
+    install_to: BepInEx/plugins
+---
+spec_version: v1.34
 identifier: WMCCModules
 $kref: '#/ckan/spacedock/3530'
 $vref: '#/ckan/space-warp'
@@ -10,4 +27,3 @@ depends:
 install:
   - find: WMCCModules
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission

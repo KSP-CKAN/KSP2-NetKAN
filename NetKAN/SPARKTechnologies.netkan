@@ -1,4 +1,22 @@
-spec_version: v1.18
+spec_version: v1.34
+identifier: SPARKTechnologies
+$kref: '#/ckan/github/schlosrat/SPARK'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - config
+depends:
+  - name: SpaceWarp
+  - name: LuxsFlamesandOrnaments
+install:
+  - find: SPARK
+    install_to: BepInEx/plugins
+x_netkan_override:
+  - version: '0.1.4.1'
+    override:
+      ksp_version_max: '0.1.4'
+---
+spec_version: v1.34
 identifier: SPARKTechnologies
 $kref: '#/ckan/spacedock/3470'
 $vref: '#/ckan/space-warp'
@@ -11,4 +29,3 @@ depends:
 install:
   - find: SPARK
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission

@@ -1,4 +1,20 @@
-spec_version: v1.18
+spec_version: v1.34
+identifier: ManeuverNodeController
+$kref: '#/ckan/github/schlosrat/ManeuverNodeController'
+$vref: '#/ckan/space-warp'
+license: CC-BY-NC-SA
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: SpaceWarp
+  - name: NodeManager
+  - name: UITKforKSP2
+install:
+  - find: maneuver_node_controller
+    install_to: BepInEx/plugins
+---
+spec_version: v1.34
 identifier: ManeuverNodeController
 $kref: '#/ckan/spacedock/3270'
 $vref: '#/ckan/space-warp'

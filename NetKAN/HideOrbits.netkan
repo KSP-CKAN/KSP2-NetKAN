@@ -1,4 +1,25 @@
-spec_version: v1.18
+spec_version: v1.34
+identifier: HideOrbits
+$kref: '#/ckan/github/ColinZeidler/KSP2-HideDistantOrbits'
+$vref: '#/ckan/space-warp'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: HideOrbits
+    install_to: BepInEx/plugins
+x_netkan_override:
+  - version: '0.5.0'
+    override:
+      ksp_version_max: '0.2.0'
+---
+spec_version: v1.34
 identifier: HideOrbits
 $kref: '#/ckan/spacedock/3324'
 $vref: '#/ckan/space-warp'

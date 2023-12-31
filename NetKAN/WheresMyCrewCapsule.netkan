@@ -1,4 +1,31 @@
-spec_version: v1.18
+spec_version: v1.34
+identifier: WheresMyCrewCapsule
+$kref: '#/ckan/github/cheese3660/WheresMyCrewCapsule'
+$vref: '#/ckan/space-warp'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+license: MIT
+tags:
+  - config
+  - tech-tree
+  - career
+  - uncrewed
+  - science
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+  - name: WMCCModules
+install:
+  - find: WheresMyCrewCapsule
+    install_to: BepInEx/plugins
+x_netkan_override:
+  - version: '0.0.4'
+    override:
+      ksp_version_max: '0.2.0'
+---
+spec_version: v1.34
 identifier: WheresMyCrewCapsule
 $kref: '#/ckan/spacedock/3531'
 $vref: '#/ckan/space-warp'
@@ -16,4 +43,3 @@ depends:
 install:
   - find: WheresMyCrewCapsule
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission

@@ -1,4 +1,25 @@
-spec_version: v1.32
+spec_version: v1.34
+identifier: ToggleNotifications
+$kref: '#/ckan/github/cvusmo/Toggle-Notifications'
+$vref: '#/ckan/space-warp'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find_regexp: Toggle ?Notifications.*
+    install_to: BepInEx/plugins
+x_netkan_override:
+  - version: '0.3.0.1'
+    override:
+      ksp_version_max: '0.1.4'
+---
+spec_version: v1.34
 identifier: ToggleNotifications
 $kref: '#/ckan/spacedock/3377'
 $vref: '#/ckan/space-warp'

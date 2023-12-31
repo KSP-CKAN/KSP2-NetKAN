@@ -1,4 +1,24 @@
-spec_version: v1.18
+spec_version: v1.34
+identifier: CommunityResources
+$kref: '#/ckan/github/KSP2Community/CommunityResources'
+$vref: '#/ckan/space-warp'
+x_netkan_version_edit:
+  find: '^v'
+  replace: ''
+  strict: false
+license: MIT
+tags:
+  - plugin
+  - library
+  - config
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: CommunityResources
+    install_to: BepInEx/plugins
+---
+spec_version: v1.34
 identifier: CommunityResources
 $kref: '#/ckan/spacedock/3484'
 $vref: '#/ckan/space-warp'
@@ -13,4 +33,3 @@ depends:
 install:
   - find: CommunityResources
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission

@@ -1,4 +1,26 @@
-spec_version: v1.18
+spec_version: v1.34
+identifier: BurnController
+$kref: '#/ckan/github/JohnsterSpaceProgramOfficial/BurnController'
+$vref: '#/ckan/space-warp'
+x_netkan_version_edit:
+  find: '^v'
+  replace: ''
+  strict: false
+license: MIT
+tags:
+  - plugin
+  - control
+depends:
+  - name: SpaceWarp
+install:
+  - find: BurnController
+    install_to: BepInEx/plugins
+x_netkan_override:
+  - version: '0.8.1'
+    override:
+      ksp_version_max: '0.1.1'
+---
+spec_version: v1.34
 identifier: BurnController
 $kref: '#/ckan/spacedock/3330'
 $vref: '#/ckan/space-warp'
