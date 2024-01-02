@@ -19,6 +19,9 @@ install:
       - patchers
       - plugins
 x_netkan_override:
+  - version: '0.8.0'
+    override:
+      ksp_version_max: '0.2.0'
   - version: '0.7.3'
     override:
       ksp_version_max: '0.2.0'
