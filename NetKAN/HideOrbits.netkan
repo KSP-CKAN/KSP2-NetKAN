@@ -14,10 +14,6 @@ depends:
 install:
   - find: HideOrbits
     install_to: BepInEx/plugins
-x_netkan_override:
-  - version: '0.5.0'
-    override:
-      ksp_version_max: '0.2.0'
 ---
 spec_version: v1.34
 identifier: HideOrbits

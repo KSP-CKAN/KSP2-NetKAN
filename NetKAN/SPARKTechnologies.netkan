@@ -11,10 +11,6 @@ depends:
 install:
   - find: SPARK
     install_to: BepInEx/plugins
-x_netkan_override:
-  - version: '0.1.4.1'
-    override:
-      ksp_version_max: '0.1.4'
 ---
 spec_version: v1.34
 identifier: SPARKTechnologies

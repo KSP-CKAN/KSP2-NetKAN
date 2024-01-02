@@ -14,10 +14,6 @@ depends:
 install:
   - find: KerbalLifeHacks
     install_to: BepInEx/plugins
-x_netkan_override:
-  - version: '1.0.0'
-    override:
-      ksp_version_max: '0.2.0'
 ---
 spec_version: v1.34
 identifier: KerbalLifeHacks

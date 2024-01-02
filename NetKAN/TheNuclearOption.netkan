@@ -10,10 +10,6 @@ depends:
 install:
   - find: TNO
     install_to: BepInEx/plugins
-x_netkan_override:
-  - version: '0.3.0'
-    override:
-      ksp_version_max: '0.1.5'
 ---
 spec_version: v1.34
 identifier: TheNuclearOption
