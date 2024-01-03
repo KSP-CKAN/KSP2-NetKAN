@@ -1,10 +1,39 @@
-spec_version: v1.18
+spec_version: v1.34
+identifier: Shoemaker
+$kref: '#/ckan/github/KSP2Community/ShoeMaker'
+$vref: '#/ckan/space-warp'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+license: MIT
+tags:
+  - plugin
+  - library
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: BepInEx
+    install_to: GameRoot
+    include_only:
+      - patchers
+      - plugins
+---
+spec_version: v1.34
 identifier: Shoemaker
 $kref: '#/ckan/spacedock/3535'
 $vref: '#/ckan/space-warp'
 license: MIT
 tags:
   - plugin
+  - library
 depends:
   - name: SpaceWarp
-x_via: Automated SpaceDock CKAN submission
+  - name: PatchManager
+install:
+  - find: BepInEx
+    install_to: GameRoot
+    include_only:
+      - patchers
+      - plugins
