@@ -1,6 +1,6 @@
 spec_version: v1.34
 identifier: IVAMod
-$kref: '#/ckan/github/Mudkip909/KSP2-IVA'
+$kref: '#/ckan/github/IsaQuest/KSP2-IVA'
 license: MIT
 tags:
   - plugin
