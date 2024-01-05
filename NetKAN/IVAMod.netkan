@@ -7,13 +7,3 @@ tags:
 install:
   - find: IVA
     install_to: BepInEx/plugins
----
-spec_version: v1.34
-identifier: IVAMod
-$kref: '#/ckan/spacedock/3269'
-license: MIT
-tags:
-  - plugin
-install:
-  - find: IVA
-    install_to: BepInEx/plugins
