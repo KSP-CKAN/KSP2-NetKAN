@@ -4,6 +4,8 @@ $kref: '#/ckan/github/IsaQuest/KSP2-IVA'
 license: MIT
 tags:
   - plugin
+depends:
+  - name: SpaceWarp
 install:
   - find: IVA
     install_to: BepInEx/plugins
