@@ -8,5 +8,5 @@ tags:
 depends:
   - name: SpaceWarp
 install:
-  - find: SASed-Warp
+  - find: SASed Warp
     install_to: BepInEx/plugins
