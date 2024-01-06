@@ -2,7 +2,7 @@ spec_version: v1.18
 identifier: SASedWarp
 $kref: '#/ckan/spacedock/3538'
 $vref: '#/ckan/space-warp'
-license: Other
+license: Unlicense
 tags:
   - plugin
 depends:
@@ -10,4 +10,3 @@ depends:
 install:
   - find: SASed-Warp
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission
