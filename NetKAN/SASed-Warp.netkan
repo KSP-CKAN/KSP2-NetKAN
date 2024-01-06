@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: SASedWarp
+identifier: SASed-Warp
 $kref: '#/ckan/spacedock/3538'
 $vref: '#/ckan/space-warp'
 license: Unlicense
