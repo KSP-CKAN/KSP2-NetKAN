@@ -1,0 +1,33 @@
+spec_version: v1.34
+identifier: ScienceArkive
+$kref: '#/ckan/github/Kerbalight/ScienceArkive'
+$vref: '#/ckan/space-warp'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+license: MIT
+tags:
+  - plugin
+  - information
+depends:
+  - name: SpaceWarp
+  - name: UITKforKSP2
+install:
+  - find: ScienceArkive
+    install_to: BepInEx/plugins
+---
+spec_version: v1.34
+identifier: ScienceArkive
+$kref: '#/ckan/spacedock/3541'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+  - information
+depends:
+  - name: SpaceWarp
+  - name: UITKforKSP2
+install:
+  - find: ScienceArkive
+    install_to: BepInEx/plugins
