@@ -1,0 +1,12 @@
+spec_version: v1.24
+identifier: DarkMode
+$kref: '#/ckan/github/coldrifting/DarkModeForKSP2'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: DarkMode
+    install_to: BepInEx/plugins
