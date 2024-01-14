@@ -1,0 +1,20 @@
+spec_version: v1.27
+identifier: KerbalSimpitKSP2
+$kref: '#/ckan/github/Simpit-team/KerbalSimpit-KSP2'
+$vref: '#/ckan/space-warp'
+license: BSD-2-clause
+resources:
+  manual: https://kerbalsimpitrevamped-arduino.readthedocs.io/en/latest
+  homepage: https://github.com/Simpit-team/KerbalSimpit-KSP2
+  repository: https://github.com/Simpit-team/KerbalSimpit-KSP2
+tags:
+  - plugin
+  - app
+  - control
+depends:
+  - name: SpaceWarp
+  - name: UITKforKSP2
+  - name: BepInEx
+install:
+  - find: KerbalSimpitKSP2
+    install_to: BepInEx/plugins
