@@ -1,0 +1,8 @@
+spec_version: v1.18
+identifier: QuestariaAerospace
+$kref: '#/ckan/spacedock/3444'
+$vref: '#/ckan/space-warp'
+license: Other
+depends:
+  - name: SpaceWarp
+x_via: Automated SpaceDock CKAN submission
