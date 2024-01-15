@@ -8,6 +8,7 @@ tags:
 depends:
   - name: SpaceWarp
   - name: LuxsFlamesandOrnaments
+  - name: CommunityResources
   - name: PatchManager
 install:
   - find: SPARK
@@ -23,6 +24,7 @@ tags:
 depends:
   - name: SpaceWarp
   - name: LuxsFlamesandOrnaments
+  - name: CommunityResources
   - name: PatchManager
 install:
   - find: SPARK
