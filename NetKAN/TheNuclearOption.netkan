@@ -7,6 +7,7 @@ tags:
   - config
 depends:
   - name: SpaceWarp
+  - name: PatchManager
 install:
   - find: TNO
     install_to: BepInEx/plugins
@@ -20,6 +21,7 @@ tags:
   - config
 depends:
   - name: SpaceWarp
+  - name: PatchManager
 install:
   - find: TNO
     install_to: BepInEx/plugins
