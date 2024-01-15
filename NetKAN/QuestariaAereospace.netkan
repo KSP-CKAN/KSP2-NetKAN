@@ -8,6 +8,7 @@ tags:
 depends:
   - name: SpaceWarp
   - name: LuxsFlamesandOrnaments
+  - name: PatchManager
 install:
   - find: BepInEx/plugins/QuestariaAerospace
     install_to: BepInEx/plugins
