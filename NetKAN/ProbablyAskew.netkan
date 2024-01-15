@@ -1,0 +1,27 @@
+spec_version: v1.34
+identifier: ProbablyAskew
+$kref: '#/ckan/github/ksp-train-wreck/probably-askew'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+  - name: UITKforKSP2
+install:
+  - find: ProbablyAskew
+    install_to: BepInEx/plugins
+---
+spec_version: v1.34
+identifier: ProbablyAskew
+$kref: '#/ckan/spacedock/3546'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+  - name: UITKforKSP2
+install:
+  - find: ProbablyAskew
+    install_to: BepInEx/plugins
