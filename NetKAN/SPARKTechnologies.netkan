@@ -8,6 +8,8 @@ tags:
 depends:
   - name: SpaceWarp
   - name: LuxsFlamesandOrnaments
+  - name: CommunityResources
+  - name: PatchManager
 install:
   - find: SPARK
     install_to: BepInEx/plugins
@@ -22,6 +24,8 @@ tags:
 depends:
   - name: SpaceWarp
   - name: LuxsFlamesandOrnaments
+  - name: CommunityResources
+  - name: PatchManager
 install:
   - find: SPARK
     install_to: BepInEx/plugins
