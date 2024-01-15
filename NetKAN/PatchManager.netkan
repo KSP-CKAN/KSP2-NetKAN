@@ -12,6 +12,7 @@ tags:
   - library
 depends:
   - name: SpaceWarp
+  - name: PremonitionForSpaceWarp
 install:
   - find: BepInEx
     install_to: GameRoot
@@ -29,6 +30,7 @@ tags:
   - library
 depends:
   - name: SpaceWarp
+  - name: PremonitionForSpaceWarp
 install:
   - find: BepInEx
     install_to: GameRoot
