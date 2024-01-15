@@ -1,0 +1,31 @@
+spec_version: v1.34
+identifier: PremonitionForSpaceWarp
+$kref: '#/ckan/github/cheese3660/Premonition/asset_match/SpaceWarp'
+$vref: '#/ckan/space-warp'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+license: MIT
+tags:
+  - plugin
+  - library
+depends:
+  - name: SpaceWarp
+install:
+  - find: Premonition
+    install_to: BepInEx/plugins
+---
+spec_version: v1.34
+identifier: PremonitionForSpaceWarp
+$kref: '#/ckan/spacedock/3548'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+  - library
+depends:
+  - name: SpaceWarp
+install:
+  - find: Premonition
+    install_to: BepInEx/plugins
