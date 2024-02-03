@@ -3,6 +3,10 @@ identifier: WayfarersWingsRankRibbons
 $kref: '#/ckan/github/Kerbalight/WayfarersWings'
 $vref: '#/ckan/space-warp'
 license: MIT
+x_netkan_version_edit:
+  find: '^v'
+  replace: ''
+  strict: false
 tags:
   - plugin
 depends:
