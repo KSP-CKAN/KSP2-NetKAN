@@ -9,6 +9,6 @@ tags:
 depends:
   - name: SpaceWarp
 install:
-  - find: wasd_for_vab
+  - find: WASDForVAB
     install_to: BepInEx/plugins
     filter_regexp: \.pdb$
