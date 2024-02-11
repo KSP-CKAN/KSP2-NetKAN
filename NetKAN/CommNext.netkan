@@ -9,6 +9,10 @@ tags:
 depends:
   - name: SpaceWarp
   - name: PatchManager
+install:
+  - find: CommNext
+    install_to: BepInEx/plugins
+    filter_regexp: \.pdb$
 x_netkan_version_edit:
   find: ^v
   replace: ''
