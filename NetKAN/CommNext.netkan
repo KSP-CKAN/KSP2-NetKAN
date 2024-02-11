@@ -29,4 +29,8 @@ tags:
 depends:
   - name: SpaceWarp
   - name: PatchManager
+install:
+  - find: CommNext
+    install_to: BepInEx/plugins
+    filter_regexp: \.pdb$
 x_via: Automated SpaceDock CKAN submission
