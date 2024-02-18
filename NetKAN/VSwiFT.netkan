@@ -9,6 +9,7 @@ tags:
 depends:
   - name: SpaceWarp
   - name: PatchManager
+  - library
 install:
   - find: VSwift
     install_to: BepInEx/plugins
@@ -28,6 +29,7 @@ tags:
 depends:
   - name: SpaceWarp
   - name: PatchManager
+  - library
 install:
   - find: VSwift
     install_to: BepInEx/plugins
