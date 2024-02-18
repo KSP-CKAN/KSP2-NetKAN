@@ -6,10 +6,10 @@ license: MIT
 tags:
   - config
   - plugin
+  - library
 depends:
   - name: SpaceWarp
   - name: PatchManager
-  - library
 install:
   - find: VSwift
     install_to: BepInEx/plugins
@@ -26,10 +26,10 @@ license: MIT
 tags:
   - config
   - plugin
+  - library
 depends:
   - name: SpaceWarp
   - name: PatchManager
-  - library
 install:
   - find: VSwift
     install_to: BepInEx/plugins
