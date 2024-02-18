@@ -1,0 +1,36 @@
+spec_version: v1.34
+identifier: VSwiFT
+$kref: '#/ckan/github/KSP2Community/V-SwiFT'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - config
+  - plugin
+  - library
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: VSwift
+    install_to: BepInEx/plugins
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: 'false'
+---
+spec_version: v1.34
+identifier: VSwiFT
+$kref: '#/ckan/spacedock/3562'
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - config
+  - plugin
+  - library
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: VSwift
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
