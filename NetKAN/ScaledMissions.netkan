@@ -8,4 +8,7 @@ tags:
 depends:
   - name: SpaceWarp
   - name: PatchManager
+install:
+  - find: ScaledMissions
+    install_to: BepInEx/plugins
 x_via: Automated SpaceDock CKAN submission
