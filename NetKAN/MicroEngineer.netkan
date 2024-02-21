@@ -10,5 +10,5 @@ depends:
   - name: SpaceWarp
   - name: UITKforKSP2
 install:
-  - find: micro_engineer
+  - find: MicroEngineer
     install_to: BepInEx/plugins
