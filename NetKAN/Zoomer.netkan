@@ -1,0 +1,20 @@
+spec_version: v1.34
+identifier: Zoomer
+$kref: '#/ckan/github/Halbann/Zoomer'
+$vref: '#/ckan/space-warp'
+license: CC-BY-SA
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+---
+spec_version: v1.34
+identifier: Zoomer
+$kref: '#/ckan/spacedock/3570'
+$vref: '#/ckan/space-warp'
+license: CC-BY-SA
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+x_via: Automated SpaceDock CKAN submission
