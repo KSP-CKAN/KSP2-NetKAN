@@ -10,10 +10,7 @@ depends:
 install:
   - find: QuickMods
     install_to: BepInEx/plugins
-x_netkan_version_edit:
-  find: ^v(?<version>\d+\.\d+\.\d+).*$
-  replace: ''
-  strict: 'false'
+x_netkan_version_edit: ^v(?<version>\d+\.\d+\.\d+).*$
 ---
 spec_version: v1.34
 identifier: QuickMods
