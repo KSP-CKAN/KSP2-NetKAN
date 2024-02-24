@@ -8,8 +8,10 @@ tags:
 depends:
   - name: SpaceWarp
   - name: PatchManager
+  - name: VSwiFT
+  - name: SpringCleaning
 install:
-  - find: TNO
+  - find: com.github.schlosrat.TNO
     install_to: BepInEx/plugins
 ---
 spec_version: v1.34
@@ -22,6 +24,8 @@ tags:
 depends:
   - name: SpaceWarp
   - name: PatchManager
+  - name: VSwiFT
+  - name: SpringCleaning
 install:
-  - find: TNO
+  - find: com.github.schlosrat.TNO
     install_to: BepInEx/plugins
