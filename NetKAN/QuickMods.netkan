@@ -1,0 +1,24 @@
+spec_version: v1.34
+identifier: QuickMods
+$kref: '#/ckan/github/malahx/QuickMods'
+$vref: '#/ckan/space-warp'
+license: unlicense
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: 'false'
+---
+spec_version: v1.34
+identifier: QuickMods
+$kref: '#/ckan/spacedock/3569'
+$vref: '#/ckan/space-warp'
+license: unlicense
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+x_via: Automated SpaceDock CKAN submission
