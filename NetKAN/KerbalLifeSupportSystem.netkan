@@ -16,6 +16,8 @@ depends:
   - name: SpaceWarp
   - name: PatchManager
   - name: CommunityResources
+  - name: VSwiFT
+  - name: SpringCleaning
 install:
   - find: KerbalLifeSupportSystem
     install_to: BepInEx/plugins
@@ -34,6 +36,8 @@ depends:
   - name: SpaceWarp
   - name: PatchManager
   - name: CommunityResources
+  - name: VSwiFT
+  - name: SpringCleaning
 install:
   - find: KerbalLifeSupportSystem
     install_to: BepInEx/plugins
