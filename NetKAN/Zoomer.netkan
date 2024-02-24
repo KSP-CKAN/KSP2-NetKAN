@@ -7,6 +7,9 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
+install:
+  - find: Zoomer
+    install_to: BepInEx/plugins
 ---
 spec_version: v1.34
 identifier: Zoomer
@@ -17,4 +20,7 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
+install:
+  - find: Zoomer
+    install_to: BepInEx/plugins
 x_via: Automated SpaceDock CKAN submission
