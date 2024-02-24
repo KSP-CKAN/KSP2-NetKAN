@@ -11,7 +11,7 @@ install:
   - find: QuickMods
     install_to: BepInEx/plugins
 x_netkan_version_edit:
-  find: ^v
+  find: ^v(?<version>\d+\.\d+\.\d+).*$
   replace: ''
   strict: 'false'
 ---
