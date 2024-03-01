@@ -11,5 +11,5 @@ depends:
   - name: PatchManager
     version: 0.9.1
 install:
-  - find: BepInEx/KSRe
+  - find: KSRe
     install_to: BepInEx/plugins
