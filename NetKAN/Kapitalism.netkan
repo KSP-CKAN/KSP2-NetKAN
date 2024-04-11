@@ -1,0 +1,14 @@
+spec_version: v1.34
+identifier: Kapitalism
+$kref: '#/ckan/spacedock/3587'
+license: Bitstudios-Public-Use-License-(BPUL)
+tags:
+  - config
+  - plugin
+depends:
+  - name: PatchManager
+install:
+  - find: Kapitalsim
+    install_to: BepInEx/plugins
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
