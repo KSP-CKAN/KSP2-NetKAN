@@ -10,7 +10,10 @@ depends:
   - name: UITKforKSP2
   - name: ShadowUtilityLIB
 install:
-  - find: Kapitalsim
-    install_to: BepInEx/plugins
+  - find: BepInEx
+    install_to: GameRoot
+    include_only:
+      - patchers
+      - plugins
     filter_regexp: \.pdb$
 x_via: Automated SpaceDock CKAN submission
