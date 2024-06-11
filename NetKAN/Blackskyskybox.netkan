@@ -1,21 +1,5 @@
 spec_version: v1.34
 identifier: Blackskyskybox
-$kref: '#/ckan/github/Bit-Studios/konfig/asset_match/BlackSky.zip'
-x_netkan_version_edit:
-  find: 'SkyboxBlackSky64x'
-  replace: '1.0.0'
-  strict: false
-tags:
-  - config
-license: MIT
-depends:
-  - name: Konfig
-install:
-  - find: BlackSky
-    install_to: BepInEx/plugins
----
-spec_version: v1.34
-identifier: Blackskyskybox
 $kref: '#/ckan/spacedock/3502'
 tags:
   - config
