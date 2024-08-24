@@ -1,8 +1,6 @@
-spec_version: v1.18
 identifier: EvenBetterTimeWarp
 $kref: '#/ckan/spacedock/3386'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - plugin
 depends:

@@ -1,8 +1,6 @@
-spec_version: v1.18
 identifier: HUMANS
 $kref: '#/ckan/spacedock/3477'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - plugin
 depends:
@@ -10,4 +8,3 @@ depends:
 install:
   - find: Humans
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission

@@ -1,4 +1,3 @@
-spec_version: v1.18
 identifier: BetterPartsManager
 $kref: '#/ckan/spacedock/3292'
 license: CC-BY-NC-ND

@@ -1,8 +1,6 @@
-spec_version: v1.18
 identifier: WASDForVAB
 $kref: '#/ckan/spacedock/3276'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - plugin
   - convenience

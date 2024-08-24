@@ -1,21 +1,13 @@
-spec_version: v1.34
 identifier: PaigeBGone
 $kref: '#/ckan/github/amahlaka/P.A.I.G.E-B-Gone'
 $vref: '#/ckan/space-warp'
-license: MIT
-tags:
-  - plugin
-depends:
-  - name: SpaceWarp
 install:
   - find: paige_b_gone
     install_to: BepInEx/plugins
 ---
-spec_version: v1.34
 identifier: PaigeBGone
 $kref: '#/ckan/spacedock/3280'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - plugin
 depends:

@@ -1,8 +1,6 @@
-spec_version: v1.18
 identifier: KapybaraSpaceProgram2
 $kref: '#/ckan/spacedock/3522'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - plugin
 depends:
@@ -11,4 +9,3 @@ install:
   - find: KapybaraSpaceProgram
     install_to: BepInEx/plugins
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission

@@ -1,24 +1,13 @@
-spec_version: v1.34
 identifier: TheNuclearOption
 $kref: '#/ckan/github/schlosrat/TNO'
 $vref: '#/ckan/space-warp'
-license: MIT
-tags:
-  - config
-depends:
-  - name: SpaceWarp
-  - name: PatchManager
-  - name: VSwiFT
-  - name: SpringCleaning
 install:
   - find: com.github.schlosrat.TNO
     install_to: BepInEx/plugins
 ---
-spec_version: v1.34
 identifier: TheNuclearOption
 $kref: '#/ckan/spacedock/3471'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - config
 depends:

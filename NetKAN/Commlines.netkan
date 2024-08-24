@@ -1,8 +1,6 @@
-spec_version: v1.18
 identifier: Commlines
 $kref: '#/ckan/spacedock/3433'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - plugin
 depends:
@@ -10,4 +8,3 @@ depends:
 install:
   - find: BepInEx
     install_to: GameRoot
-x_via: Automated SpaceDock CKAN submission

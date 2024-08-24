@@ -1,22 +1,13 @@
-spec_version: v1.34
 identifier: TexturesUtilitieseXpanded
 $kref: '#/ckan/github/LuxStice/TUX'
 $vref: '#/ckan/space-warp'
-license: MIT
-tags:
-  - plugin
-  - graphics
-depends:
-  - name: SpaceWarp
 install:
   - find: tux
     install_to: BepInEx/plugins
 ---
-spec_version: v1.34
 identifier: TexturesUtilitieseXpanded
 $kref: '#/ckan/spacedock/3364'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - plugin
   - graphics

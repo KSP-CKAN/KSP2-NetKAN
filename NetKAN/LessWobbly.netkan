@@ -1,20 +1,11 @@
-spec_version: v1.34
 identifier: LessWobbly
 $kref: '#/ckan/github/linuxgurugamer/KSP2-LessWobbly'
-license: MIT
-tags:
-  - plugin
-  - physics
-depends:
-  - name: BepInEx
 install:
   - find: LessWobbly
     install_to: BepInEx/plugins
 ---
-spec_version: v1.34
 identifier: LessWobbly
 $kref: '#/ckan/spacedock/3267'
-license: MIT
 tags:
   - plugin
   - physics

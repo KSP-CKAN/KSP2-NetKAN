@@ -1,8 +1,6 @@
-spec_version: v1.18
 identifier: NoSeizureWarning
 $kref: '#/ckan/spacedock/3337'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - plugin
 depends:
