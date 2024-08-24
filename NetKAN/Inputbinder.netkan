@@ -1,19 +1,11 @@
-spec_version: v1.34
 identifier: Inputbinder
 $kref: '#/ckan/github/Codenade/ksp2-inputbinder'
-license: MIT
-tags:
-  - plugin
-depends:
-  - name: BepInEx
 install:
   - find: inputbinder
     install_to: BepInEx/plugins
 ---
-spec_version: v1.34
 identifier: Inputbinder
 $kref: '#/ckan/spacedock/3422'
-license: MIT
 tags:
   - plugin
 depends:

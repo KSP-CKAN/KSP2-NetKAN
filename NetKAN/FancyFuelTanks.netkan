@@ -1,29 +1,17 @@
-spec_version: v1.34
 identifier: FancyFuelTanks
-name: Fancy Fuel Tanks
-abstract: FFT adds visually appealing Fuel Tanks to KSP2!
 $kref: '#/ckan/github/cvusmo/FFT'
 x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
 $vref: '#/ckan/space-warp'
-license: MIT
-tags:
-  - parts
-depends:
-  - name: SpaceWarp
 install:
   - find_regexp: FFT.*
     install_to: BepInEx/plugins
 ---
-spec_version: v1.34
 identifier: FancyFuelTanks
-name: Fancy Fuel Tanks
-abstract: FFT adds visually appealing Fuel Tanks to KSP2!
 $kref: '#/ckan/spacedock/3431'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - parts
 depends:

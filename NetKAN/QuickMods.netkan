@@ -1,18 +1,11 @@
-spec_version: v1.34
 identifier: QuickMods
 $kref: '#/ckan/github/malahx/QuickMods'
+x_netkan_version_edit: ^v(?<version>\d+\.\d+\.\d+).*$
 $vref: '#/ckan/space-warp'
-license: Unlicense
-tags:
-  - plugin
-depends:
-  - name: SpaceWarp
 install:
   - find: QuickMods
     install_to: BepInEx/plugins
-x_netkan_version_edit: ^v(?<version>\d+\.\d+\.\d+).*$
 ---
-spec_version: v1.34
 identifier: QuickMods
 $kref: '#/ckan/spacedock/3569'
 $vref: '#/ckan/space-warp'
@@ -24,4 +17,3 @@ depends:
 install:
   - find: QuickMods
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission

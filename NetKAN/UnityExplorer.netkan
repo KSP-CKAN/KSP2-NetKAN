@@ -1,10 +1,8 @@
-spec_version: v1.32
 identifier: UnityExplorer
 name: Unity Explorer for KSP2
 $kref: '#/ckan/github/KSP2Community/UnityExplorer'
 $vref: '#/ckan/space-warp'
 ksp_version: any
-license: GPL-3.0
 tags:
   - plugin
 depends:

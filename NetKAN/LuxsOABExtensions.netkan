@@ -1,8 +1,6 @@
-spec_version: v1.18
 identifier: LuxsOABExtensions
 $kref: '#/ckan/spacedock/3354'
 $vref: '#/ckan/space-warp'
-license: GPL-3.0
 tags:
   - plugin
   - editor

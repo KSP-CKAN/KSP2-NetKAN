@@ -1,4 +1,3 @@
-spec_version: v1.18
 identifier: SASed-Warp
 $kref: '#/ckan/spacedock/3538'
 $vref: '#/ckan/space-warp'

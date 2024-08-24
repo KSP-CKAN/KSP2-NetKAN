@@ -1,4 +1,3 @@
-spec_version: v1.34
 identifier: BepInEx
 name: BepInEx
 abstract: Modloader for Unity games
@@ -8,10 +7,6 @@ x_netkan_version_edit:
   find: 'spacewarp-'
   replace: ''
   strict: false
-license: LGPL-3.0
-tags:
-  - plugin
-  - library
 install:
   - find: BepInEx
     install_to: GameRoot
@@ -23,13 +18,11 @@ install:
   - file: winhttp.dll
     install_to: GameRoot
 ---
-spec_version: v1.34
 identifier: BepInEx
 name: BepInEx
 abstract: Modloader for Unity games
 $kref: '#/ckan/spacedock/3277'
 x_netkan_epoch: 1
-license: LGPL-3.0
 tags:
   - plugin
   - library

@@ -1,4 +1,3 @@
-spec_version: v1.18
 identifier: QuantumLoader
 $kref: '#/ckan/spacedock/3425'
 license: MIT

@@ -1,4 +1,3 @@
-spec_version: v1.34
 identifier: CelestialGlow
 $kref: '#/ckan/github/WiS3/Celestial-Glow'
 $vref: '#/ckan/space-warp'
@@ -6,20 +5,13 @@ x_netkan_version_edit:
   find: '^v'
   replace: ''
   strict: false
-license: MIT
-tags:
-  - plugin
-depends:
-  - name: SpaceWarp
 install:
   - find: CelestialGlow
     install_to: BepInEx/plugins
 ---
-spec_version: v1.34
 identifier: CelestialGlow
 $kref: '#/ckan/spacedock/3553'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - plugin
 depends:

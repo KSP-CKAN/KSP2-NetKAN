@@ -1,8 +1,6 @@
-spec_version: v1.18
 identifier: TrimController
 $kref: '#/ckan/spacedock/3542'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - plugin
 depends:
@@ -11,4 +9,3 @@ install:
   - find: trimController
     install_to: BepInEx/plugins
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission

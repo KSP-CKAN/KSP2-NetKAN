@@ -1,4 +1,3 @@
-spec_version: v1.34
 identifier: DockingAlignmentDisplay
 $kref: '#/ckan/github/Safarte/DockingAlignmentDisplay'
 $vref: '#/ckan/space-warp'
@@ -6,21 +5,13 @@ x_netkan_version_edit:
   find: '^v'
   replace: ''
   strict: false
-license: MIT
-tags:
-  - plugin
-depends:
-  - name: SpaceWarp
-  - name: UITKforKSP2
 install:
   - find: DockingAlignmentDisplay
     install_to: BepInEx/plugins
 ---
-spec_version: v1.34
 identifier: DockingAlignmentDisplay
 $kref: '#/ckan/spacedock/3439'
 $vref: '#/ckan/space-warp'
-license: MIT
 tags:
   - plugin
 depends:

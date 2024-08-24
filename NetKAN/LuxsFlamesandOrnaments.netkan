@@ -1,4 +1,3 @@
-spec_version: v1.34
 identifier: LuxsFlamesandOrnaments
 $kref: '#/ckan/github/KSP2Community/LFO'
 $vref: '#/ckan/space-warp'
@@ -6,21 +5,13 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
-license: GPL-3.0
-tags:
-  - plugin
-  - graphics
-depends:
-  - name: SpaceWarp
 install:
   - find: LFO
     install_to: BepInEx/plugins
 ---
-spec_version: v1.34
 identifier: LuxsFlamesandOrnaments
 $kref: '#/ckan/spacedock/3383'
 $vref: '#/ckan/space-warp'
-license: GPL-3.0
 tags:
   - plugin
   - graphics

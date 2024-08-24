@@ -1,8 +1,6 @@
-spec_version: v1.32
 identifier: UtilityUplift
 $kref: '#/ckan/spacedock/3351'
 $vref: '#/ckan/space-warp'
-license: CC-BY-SA-4.0
 tags:
   - plugin
   - parts
