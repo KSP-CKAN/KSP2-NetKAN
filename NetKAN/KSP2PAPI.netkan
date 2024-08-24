@@ -1,0 +1,10 @@
+spec_version: v1.34
+identifier: KSP2PAPI
+$kref: '#/ckan/github/Codenade/ksp2-papi'
+license: MIT
+---
+spec_version: v1.34
+identifier: KSP2PAPI
+$kref: '#/ckan/spacedock/3371'
+license: MIT
+x_via: Automated SpaceDock CKAN submission
