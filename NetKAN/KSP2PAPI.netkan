@@ -1,5 +1,10 @@
 identifier: KSP2PAPI
 $kref: '#/ckan/github/Codenade/ksp2-papi'
+install:
+  - file: BepInEx/plugins/ksp2-papi-bepinex.dll
+    install_to: BepInEx/plugins
+  - find: KSP2_PAPI
+    install_to: GameData/Mods
 ---
 identifier: KSP2PAPI
 $kref: '#/ckan/spacedock/3371'
