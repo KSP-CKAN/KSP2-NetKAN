@@ -1,0 +1,17 @@
+identifier: KSP2PAPI
+$kref: '#/ckan/github/Codenade/ksp2-papi'
+install:
+  - find: ksp2-papi
+    install_to: BepInEx/plugins
+---
+identifier: KSP2PAPI
+$kref: '#/ckan/spacedock/3371'
+tags:
+  - plugin
+  - information
+  - buildings
+depends:
+  - name: BepInEx
+install:
+  - find: ksp2-papi
+    install_to: BepInEx/plugins
