@@ -1,5 +1,8 @@
 identifier: KSP2PAPI
 $kref: '#/ckan/github/Codenade/ksp2-papi'
+install:
+  - find: ksp2-papi
+    install_to: BepInEx/plugins
 ---
 identifier: KSP2PAPI
 $kref: '#/ckan/spacedock/3371'
