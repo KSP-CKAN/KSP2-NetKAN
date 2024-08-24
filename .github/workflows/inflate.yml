@@ -1,54 +1,55 @@
 name: Inflate netkans
 on:
-    push:
-        branches:
-            - main
-    pull_request:
-        types:
-            - opened
-            - synchronize
-            - reopened
-            - edited
+  push:
+    branches:
+      - main
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - edited
+
 jobs:
-    Inflate:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Get NetKAN repo
-              uses: actions/checkout@v2
-              with:
-                  ref: ${{ github.event.pull_request.head.sha }}
-                  fetch-depth: 0
-            - name: Get KSP2-CKAN-meta repo
-              uses: actions/checkout@v2
-              with:
-                  repository: KSP-CKAN/KSP2-CKAN-meta
-                  path: .KSP2-CKAN-meta
-            - name: Cache downloads
-              if: ${{ github.event_name == 'pull_request' }}
-              uses: actions/cache@v2
-              with:
-                  path: .cache
-                  key: downloads-${{ github.run_id }}
-                  restore-keys: |
-                      downloads-
-            - name: Test modified netkans
-              uses: KSP-CKAN/xKAN-meta_testing@master
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
-                  EVENT_BEFORE: ${{ github.event.before }}
-              with:
-                  game: KSP2
-                  source: commits
-                  diff meta root: .KSP2-CKAN-meta
-                  pull request url: ${{ github.event.pull_request.url }}
-            - name: Chmod cached files so actions/cache and actions/upload-artifact can read them
-              run: sudo chmod -R a+r .cache
-              if: ${{ always() }}
-            - name: Upload inflated ckans as metadata repository zip artifact
-              if: ${{ always() && github.event_name == 'pull_request' }}
-              uses: actions/upload-artifact@v2
-              with:
-                  name: metadata-${{ github.event.pull_request.number }}
-                  path: .ckans
-                  retention-days: 7
+  Inflate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get NetKAN repo
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+      - name: Get KSP2-CKAN-meta repo
+        uses: actions/checkout@v4
+        with:
+          repository: KSP-CKAN/KSP2-CKAN-meta
+          path: .KSP2-CKAN-meta
+      - name: Cache downloads
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: downloads-${{ github.run_id }}
+          restore-keys: |
+            downloads-
+      - name: Test modified netkans
+        uses: KSP-CKAN/xKAN-meta_testing@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          EVENT_BEFORE: ${{ github.event.before }}
+        with:
+          game: KSP2
+          source: commits
+          diff meta root: .KSP2-CKAN-meta
+          pull request url: ${{ github.event.pull_request.url }}
+      - name: Chmod cached files so actions/cache and actions/upload-artifact can read them
+        run: sudo chmod -R a+r .cache
+        if: ${{ always() }}
+      - name: Upload inflated ckans as metadata repository zip artifact
+        if: ${{ always() && github.event_name == 'pull_request' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: metadata-${{ github.event.pull_request.number }}
+          path: .ckans
+          retention-days: 7
