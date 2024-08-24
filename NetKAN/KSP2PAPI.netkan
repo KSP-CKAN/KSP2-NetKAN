@@ -9,6 +9,8 @@ $kref: '#/ckan/spacedock/3371'
 tags:
   - plugin
   - information
+depends:
+  - name: BepInEx
 install:
   - find: ksp2-papi
     install_to: BepInEx/plugins
