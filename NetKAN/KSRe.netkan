@@ -7,8 +7,12 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
+  - name: PremonitionForSpaceWarp
+  - name: UITKforKSP2
   - name: PatchManager
     version: 0.9.1
+suggests:
+  - name: CommNext
 install:
   - find: KSRe
     install_to: BepInEx/plugins
