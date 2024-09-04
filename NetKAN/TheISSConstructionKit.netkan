@@ -2,6 +2,8 @@ identifier: TheISSConstructionKit
 $kref: '#/ckan/spacedock/3709'
 $vref: '#/ckan/space-warp'
 license: MIT
+tags:
+  - parts
 depends:
   - name: SpaceWarp
   - name: PatchManager
