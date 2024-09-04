@@ -4,7 +4,7 @@ $vref: '#/ckan/space-warp'
 license: MIT
 depends:
   - name: SpaceWarp
+  - name: PatchManager
 install:
   - find: ISS
     install_to: BepInEx/plugins
-x_via: Automated SpaceDock CKAN submission
