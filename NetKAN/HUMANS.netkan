@@ -5,6 +5,7 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
+  - name: UITKforKSP2
 install:
   - find: Humans
     install_to: BepInEx/plugins
