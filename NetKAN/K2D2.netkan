@@ -8,6 +8,7 @@ tags:
   - control
 depends:
   - name: SpaceWarp
+  - name: UITKforKSP2
 install:
   - find: K2D2
     install_to: BepInEx/plugins
