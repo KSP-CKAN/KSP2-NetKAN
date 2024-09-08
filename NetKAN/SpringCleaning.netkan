@@ -6,6 +6,7 @@ tags:
 depends:
   - name: SpaceWarp
   - name: PremonitionForSpaceWarp
+  - name: UITKforKSP2
 install:
   - find: SpringCleaning
     install_to: BepInEx/plugins
