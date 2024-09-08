@@ -6,6 +6,7 @@ tags:
 depends:
   - name: SpaceWarp
   - name: PatchManager
+  - name: 25xKerbolarSystem
 install:
   - find: ScaledMissions
     install_to: BepInEx/plugins
