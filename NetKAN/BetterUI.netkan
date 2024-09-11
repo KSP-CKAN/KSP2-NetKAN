@@ -3,7 +3,6 @@ $kref: '#/ckan/spacedock/3715'
 tags:
   - plugin
 install:
-  - find: BetterUI
+  - find: BepInEx/plugins/BetterUI
     install_to: BepInEx/plugins
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
