@@ -1,0 +1,11 @@
+identifier: ISSConstructionKit
+$kref: '#/ckan/spacedock/3709
+tags:
+  - parts
+  - crewed
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: ISS
+    install_to: BepInEx/plugins
