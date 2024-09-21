@@ -11,5 +11,4 @@ depends:
   - name: PatchManager
 install:
   - find: BetterUI
-  - find: BepInEx/plugins/BetterUI
     install_to: BepInEx/plugins
