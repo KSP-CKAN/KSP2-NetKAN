@@ -1,0 +1,15 @@
+identifier: BetterUI
+$kref: '#/ckan/spacedock/3715'
+tags:
+  - plugin
+  - convenience
+  - information
+depends:
+  - name: SpaceWarp
+  - name: UITKforKSP2
+  - name: PremonitionForSpaceWarp
+  - name: PatchManager
+install:
+  - find: BetterUI
+  - find: BepInEx/plugins/BetterUI
+    install_to: BepInEx/plugins
