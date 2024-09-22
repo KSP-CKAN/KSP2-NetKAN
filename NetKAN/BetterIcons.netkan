@@ -1,0 +1,20 @@
+identifier: BetterIcons
+$kref: '#/ckan/github/pasalvetti/BetterIcons'
+x_netkan_version_edit:
+  find: ^BetterIcons_
+  replace: ''
+  strict: false
+$vref: '#/ckan/space-warp'
+---
+identifier: BetterIcons
+$kref: '#/ckan/spacedock/3718'
+$vref: '#/ckan/space-warp'
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: BetterIcons
+    install_to: BepInEx/plugins
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
