@@ -1,0 +1,11 @@
+identifier: BetterUI
+$kref: '#/ckan/spacedock/3715'
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: BepInEx/plugins/BetterUI
+    install_to: BepInEx/plugins
+    filter_regexp: \.pdb$
