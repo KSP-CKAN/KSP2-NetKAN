@@ -1,16 +1,4 @@
 identifier: BetterIcons
-$kref: '#/ckan/github/pasalvetti/BetterIcons'
-x_netkan_version_edit:
-  find: ^BetterIcons_
-  replace: ''
-  strict: false
-$vref: '#/ckan/space-warp'
-install:
-  - find: BetterIcons
-    install_to: BepInEx/plugins
-    filter_regexp: \.pdb$
----
-identifier: BetterIcons
 $kref: '#/ckan/spacedock/3718'
 $vref: '#/ckan/space-warp'
 tags:
@@ -19,6 +7,6 @@ depends:
   - name: SpaceWarp
   - name: PatchManager
 install:
-  - find: BetterIcons
+  - find: BepInEx/plugins/BetterIcons
     install_to: BepInEx/plugins
     filter_regexp: \.pdb$
