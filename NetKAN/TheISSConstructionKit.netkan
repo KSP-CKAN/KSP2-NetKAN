@@ -8,5 +8,5 @@ depends:
   - name: SpaceWarp
   - name: PatchManager
 install:
-  - find: ISS
+  - find: BepInEx/plugins/ISS
     install_to: BepInEx/plugins
