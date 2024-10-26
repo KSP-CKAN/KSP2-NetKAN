@@ -1,0 +1,9 @@
+identifier: Cloudy
+$kref: '#/ckan/spacedock/3741'
+$vref: '#/ckan/space-warp'
+tags:
+  - config
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+x_via: Automated SpaceDock CKAN submission
