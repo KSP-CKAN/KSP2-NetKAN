@@ -1,0 +1,12 @@
+identifier: BetterIcons
+$kref: '#/ckan/spacedock/3718'
+$vref: '#/ckan/space-warp'
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: BepInEx/plugins/BetterIcons
+    install_to: BepInEx/plugins
+    filter_regexp: \.pdb$
