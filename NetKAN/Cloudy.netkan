@@ -1,0 +1,13 @@
+identifier: Cloudy
+$kref: '#/ckan/spacedock/3741'
+$vref: '#/ckan/space-warp'
+tags:
+  - config
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+  - name: Shoemaker
+install:
+  - find: Cloudy
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
