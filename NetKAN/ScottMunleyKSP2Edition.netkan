@@ -1,0 +1,6 @@
+identifier: ScottMunleyKSP2Edition
+$kref: '#/ckan/spacedock/3775'
+install:
+  - find: Munley
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
