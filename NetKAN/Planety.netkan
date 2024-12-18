@@ -1,0 +1,5 @@
+identifier: Planety
+$kref: '#/ckan/spacedock/3781'
+tags:
+  - plugin
+x_via: Automated SpaceDock CKAN submission
