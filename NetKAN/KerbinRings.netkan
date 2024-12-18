@@ -1,0 +1,6 @@
+identifier: KerbinRings
+$kref: '#/ckan/spacedock/3785'
+install:
+  - find: KerbRings
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
