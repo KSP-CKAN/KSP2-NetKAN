@@ -1,5 +1,5 @@
 identifier: KerbalSimpitKSP2
-$kref: '#/ckan/github/Simpit-team/KerbalSimpit-KSP2'
+$kref: '#/ckan/github/Simpit-team/KerbalSimpit-KSP2/asset_match/Kerbal'
 $vref: '#/ckan/space-warp'
 license: BSD-2-clause
 resources:
