@@ -5,6 +5,6 @@ tags:
 depends:
   - name: Planety
 install:
-  - find: KerbRings
+  - find: Planety\JoolianRings
     install_to: Planety
 x_via: Automated SpaceDock CKAN submission
