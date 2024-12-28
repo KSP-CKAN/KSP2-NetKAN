@@ -1,6 +1,10 @@
 identifier: KerbinRings
 $kref: '#/ckan/spacedock/3785'
+tags:
+  - plugin
+depends:
+  - name: Planety
 install:
   - find: KerbRings
-    install_to: BepInEx/plugins
+    install_to: Planety
 x_via: Automated SpaceDock CKAN submission
