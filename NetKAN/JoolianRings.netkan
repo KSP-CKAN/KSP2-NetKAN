@@ -1,3 +1,10 @@
 identifier: JoolianRings
 $kref: '#/ckan/spacedock/3782'
+tags:
+  - plugin
+depends:
+  - name: Planety
+install:
+  - find: KerbRings
+    install_to: Planety
 x_via: Automated SpaceDock CKAN submission
