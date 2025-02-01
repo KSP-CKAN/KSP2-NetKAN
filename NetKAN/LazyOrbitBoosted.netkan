@@ -3,6 +3,10 @@ $kref: '#/ckan/spacedock/3410'
 $vref: '#/ckan/space-warp'
 tags:
   - plugin
+provides:
+  - LazyOrbit
+conflicts:
+  - name: LazyOrbit
 depends:
   - name: SpaceWarp
 install:
