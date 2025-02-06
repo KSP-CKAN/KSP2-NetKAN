@@ -1,0 +1,10 @@
+identifier: AsteroidzPlus
+$kref: '#/ckan/github/Arno-dp/Asteroidz-Plus'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: AsteroidzPlus
+$kref: '#/ckan/spacedock/3818'
+x_via: Automated SpaceDock CKAN submission
