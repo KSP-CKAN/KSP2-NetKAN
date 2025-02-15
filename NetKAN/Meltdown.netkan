@@ -1,0 +1,22 @@
+identifier: Meltdown
+$kref: '#/ckan/github/pasalvetti/meltdown'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/space-warp'
+---
+identifier: Meltdown
+$kref: '#/ckan/spacedock/3822'
+$vref: '#/ckan/space-warp'
+tags:
+  - config
+  - plugin
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: Meltdown
+    install_to: BepInEx/plugins
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
