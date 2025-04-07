@@ -5,4 +5,4 @@ tags:
   - plugin
 depends:
   - name: SpaceWarp
-x_via: Automated SpaceDock CKAN submission
+  - name: UITKforKSP2
