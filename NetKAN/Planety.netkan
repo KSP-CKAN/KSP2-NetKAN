@@ -2,13 +2,14 @@ identifier: Planety
 $kref: '#/ckan/spacedock/3781'
 tags:
   - plugin
+  - library
 depends:
   - name: SpaceWarp
 install:
-  - find: BepInEx/plugins/Planety
-    install_to: BepInEx/plugins
-  - find: BepInEx/patchers/Planety
-    install_to: BepInEx/patchers
+  - find: BepInEx
+    include_only:
+      - plugins
+      - patchers
+    install_to: GameRoot
   - find: KSP2_x64_Data/Plugins/x86_64
     install_to: KSP2_x64_Data/Plugins
-x_via: Automated SpaceDock CKAN submission
