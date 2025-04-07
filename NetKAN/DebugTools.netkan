@@ -1,0 +1,8 @@
+identifier: DebugTools
+$kref: '#/ckan/spacedock/3812'
+$vref: '#/ckan/space-warp'
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+  - name: UITKforKSP2
