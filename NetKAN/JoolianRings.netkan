@@ -2,9 +2,9 @@ identifier: JoolianRings
 $kref: '#/ckan/spacedock/3782'
 tags:
   - plugin
+  - planet-pack
 depends:
   - name: Planety
 install:
-  - find: Planety\JoolianRings
-    install_to: Planety
-x_via: Automated SpaceDock CKAN submission
+  - find: Planety
+    install_to: GameRoot
