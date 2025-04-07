@@ -1,0 +1,17 @@
+identifier: MissionTreeExpanded
+$kref: '#/ckan/github/pasalvetti/MissionTreeExpanded'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/space-warp'
+---
+identifier: MissionTreeExpanded
+$kref: '#/ckan/spacedock/3831'
+$vref: '#/ckan/space-warp'
+tags:
+  - config
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+x_via: Automated SpaceDock CKAN submission
