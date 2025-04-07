@@ -10,8 +10,9 @@ identifier: Meltdown
 $kref: '#/ckan/spacedock/3822'
 $vref: '#/ckan/space-warp'
 tags:
-  - config
   - plugin
+  - parts
+  - physics
 depends:
   - name: SpaceWarp
   - name: PatchManager
@@ -19,4 +20,3 @@ install:
   - find: Meltdown
     install_to: BepInEx/plugins
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
