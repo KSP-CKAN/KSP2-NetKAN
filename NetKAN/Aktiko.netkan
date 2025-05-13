@@ -1,0 +1,10 @@
+identifier: Aktiko
+$kref: '#/ckan/spacedock/3783'
+tags:
+  - plugin
+depends:
+  - name: Planety
+install:
+  - find: Planety/Aktiko
+    install_to: Planety
+x_via: Automated SpaceDock CKAN submission
