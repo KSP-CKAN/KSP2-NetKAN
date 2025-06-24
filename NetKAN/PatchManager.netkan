@@ -5,12 +5,6 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
-install:
-  - find: BepInEx
-    install_to: GameRoot
-    include_only:
-      - patchers
-      - plugins
 ---
 identifier: PatchManager
 $kref: '#/ckan/spacedock/3482'
@@ -25,5 +19,4 @@ install:
   - find: BepInEx
     install_to: GameRoot
     include_only:
-      - patchers
       - plugins
