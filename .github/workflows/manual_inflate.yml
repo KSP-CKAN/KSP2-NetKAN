@@ -10,21 +10,11 @@ jobs:
   Inflate_module:
     runs-on: ubuntu-latest
     steps:
-      - name: Get NetKAN repo
-        uses: actions/checkout@v4
-        with:
-          path: NetKAN
-      - name: Get CKAN-meta repo
-        uses: actions/checkout@v4
-        with:
-          repository: KSP-CKAN/KSP2-CKAN-meta
-          path: CKAN-meta
+      - uses: actions/checkout@v4
       - name: Manual inflate
-        uses: HebaruSan/inflate-netkan@master
-        env:
-          AWS_ACCESS_KEY_ID:     ${{ secrets.AWS_ACCESS_KEY_ID   }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION:    ${{ secrets.AWS_DEFAULT_REGION  }}
+        uses: ./.github/actions/manual_inflate
         with:
-          identifier: ${{ github.event.inputs.identifier }}
-          game id: ksp2
+          AWS_ACCESS_KEY_ID:     ${{ secrets.AWS_ACCESS_KEY_ID      }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY  }}
+          AWS_DEFAULT_REGION:    ${{ secrets.AWS_DEFAULT_REGION     }}
+          identifier:            ${{ github.event.inputs.identifier }}
