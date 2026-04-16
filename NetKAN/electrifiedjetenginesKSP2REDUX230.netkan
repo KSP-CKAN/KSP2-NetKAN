@@ -1,0 +1,16 @@
+identifier: electrifiedjetenginesKSP2REDUX230
+$kref: '#/ckan/github/killerwhale00/electrified-jet-engines'
+$vref: '#/ckan/space-warp'
+---
+identifier: electrifiedjetenginesKSP2REDUX230
+$kref: '#/ckan/spacedock/4213'
+$vref: '#/ckan/space-warp'
+tags:
+  - config
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: mods
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
