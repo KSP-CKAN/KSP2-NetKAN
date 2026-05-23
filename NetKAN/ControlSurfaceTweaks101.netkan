@@ -1,0 +1,13 @@
+identifier: ControlSurfaceTweaks101
+$kref: '#/ckan/github/killerwhale00/control-surface-tweaks'
+$vref: '#/ckan/space-warp'
+---
+identifier: ControlSurfaceTweaks101
+$kref: '#/ckan/spacedock/4277'
+$vref: '#/ckan/space-warp'
+depends:
+  - name: SpaceWarp
+install:
+  - find: ''
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
