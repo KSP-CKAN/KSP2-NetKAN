@@ -1,0 +1,16 @@
+identifier: Astrogation
+$kref: '#/ckan/github/WakeZero/Astrogation'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/space-warp'
+---
+identifier: Astrogation
+$kref: '#/ckan/spacedock/4326'
+$vref: '#/ckan/space-warp'
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+install:
+  - find: ''
+    install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
